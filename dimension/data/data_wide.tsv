@@ -1,0 +1,106 @@
+Countries	Cat	Quality_of_opportunities	Income	Future_prospects	Family_environment	Skills_environment	Inclusiveness	Quality_of_life	Quality_of_opportunities_Quartiles	Income_Quartiles	Future_prospects_Quartiles	Family_environment_Quartiles	Skills_environment_Quartiles	Inclusiveness_Quartiles	Quality_of_life_Quartiles
+Australia	Student	0.168	0.491	0.684	0.480	0.791	0.622	0.764	4	3	3	2	4	4	4
+Austria	Student	0.036	0.409	0.683	0.346	0.636	0.567	0.661	2	2	3	1	3	4	3
+Belgium	Student	0.051	0.359	0.561	0.453	0.588	0.451	0.689	3	1	2	2	2	2	3
+Canada	Student	0.139	0.475	0.562	0.656	0.911	0.538	0.756	4	2	2	4	4	3	4
+Chile	Student	0.007	0.096	0.637	0.518	0.515	0.323	0.417	1	1	3	3	1	1	1
+Czech Republic	Student	0.000	0.144	0.620	0.320	0.542	0.355	0.562	1	1	3	1	2	1	2
+Denmark	Student	0.036	0.502	0.493	0.497	0.747	0.580	0.758	2	3	2	3	3	4	4
+Estonia	Student	0.007	0.327	0.520	0.471	0.692	0.537	0.547	1	1	2	2	3	3	2
+Finland	Student	0.036	0.748	0.562	0.549	0.750	0.553	0.727	2	4	2	4	4	4	3
+France	Student	0.161	0.625	0.785	0.593	0.533	0.435	0.631	4	4	4	4	2	2	2
+Germany	Student	0.277	0.709	0.705	0.537	0.601	0.540	0.709	4	4	3	3	3	3	3
+Greece	Student	0.015	0.178	0.313	0.270	0.507	0.138	0.364	2	1	1	1	1	1	1
+Hungary	Student	0.000	0.496	0.436	0.293	0.482	0.263	0.431	1	3	1	1	1	1	1
+Iceland	Student	0.000	0.650	0.558	0.544	0.709	0.521	0.742	1	4	2	3	3	3	4
+Ireland	Student	0.022	0.539	0.463	0.407	0.689	0.495	0.674	2	3	1	1	3	3	3
+Israel	Student	0.036	0.489	0.314	0.439	0.546	0.093	0.535	2	2	1	2	2	1	2
+Italy	Student	0.139	0.699	0.814	0.534	0.416	0.324	0.500	4	4	4	3	1	1	2
+Japan	Student	0.117	0.459	0.609	0.398	0.394	0.579	0.577	4	2	3	1	1	4	2
+Korea	Student	0.080	0.606	0.712	0.507	0.735	0.488	0.517	3	3	3	3	3	3	2
+Latvia	Student	0.000	0.220	0.636	0.379	0.554	0.409	0.410	1	1	3	1	2	2	1
+Luxembourg	Student	0.000	0.420	0.281	0.496	0.591	0.716	0.699	1	2	1	2	2	4	3
+Mexico	Student	0.007	0.156	0.333	0.500	0.209	0.122	0.281	1	1	1	3	1	1	1
+Netherlands	Student	0.088	0.423	0.723	0.453	0.774	0.493	0.739	3	2	4	2	4	3	3
+New Zealand	Student	0.029	0.482	0.762	0.503	0.770	0.632	0.689	2	2	4	3	4	4	3
+Norway	Student	0.022	0.884	0.541	0.660	0.769	0.467	0.788	2	4	2	4	4	3	4
+Poland	Student	0.015	0.290	0.473	0.350	0.535	0.438	0.494	2	1	1	1	2	2	1
+Portugal	Student	0.036	0.589	0.840	0.613	0.517	0.400	0.479	2	3	4	4	1	2	1
+Slovak Republic	Student	0.000	0.505	0.717	0.632	0.521	0.376	0.476	1	3	4	4	2	2	1
+Slovenia	Student	0.007	0.679	0.713	0.580	0.518	0.439	0.607	1	4	4	4	2	2	2
+Spain	Student	0.088	0.577	0.716	0.494	0.480	0.331	0.563	3	3	4	2	1	1	2
+Sweden	Student	0.080	0.563	0.681	0.485	0.743	0.537	0.752	3	3	3	2	3	3	4
+Switzerland	Student	0.058	0.866	0.524	0.536	0.598	0.700	0.762	3	4	2	3	3	4	4
+Turkey	Student	0.007	0.056	0.442	0.124	0.373	0.263	0.314	1	1	1	1	1	1	1
+United Kingdom	Student	0.270	0.489	0.508	0.731	0.828	0.375	0.667	4	2	2	4	4	2	3
+United States	Student	1.000	0.399	0.381	0.450	0.875	0.411	0.746	4	2	1	2	4	2	4
+Australia	Entrepreneurs	0.364	0.328	0.690	0.647	0.556	0.688	0.764	3	1	4	3	3	4	4
+Austria	Entrepreneurs	0.309	0.488	0.577	0.680	0.519	0.572	0.661	2	3	2	4	3	3	3
+Belgium	Entrepreneurs	0.228	0.357	0.582	0.453	0.474	0.465	0.689	1	1	2	1	2	2	3
+Canada	Entrepreneurs	0.443	0.551	0.750	0.572	0.538	0.612	0.756	4	3	4	2	3	4	4
+Chile	Entrepreneurs	0.311	0.619	0.516	0.518	0.175	0.347	0.417	2	4	1	2	1	1	1
+Czech Republic	Entrepreneurs	0.318	0.602	0.660	0.487	0.426	0.299	0.562	2	4	3	1	2	1	2
+Denmark	Entrepreneurs	0.401	0.442	0.379	0.580	0.595	0.582	0.758	3	2	1	3	4	4	4
+Estonia	Entrepreneurs	0.446	0.505	0.526	0.638	0.430	0.557	0.547	4	3	2	3	2	3	2
+Finland	Entrepreneurs	0.367	0.469	0.582	0.549	0.586	0.532	0.727	3	2	2	2	4	3	3
+France	Entrepreneurs	0.242	0.348	0.603	0.676	0.445	0.433	0.631	1	1	2	4	2	2	2
+Germany	Entrepreneurs	0.267	0.624	0.607	0.620	0.627	0.589	0.709	1	4	2	3	4	4	3
+Greece	Entrepreneurs	0.229	0.341	0.640	0.603	0.269	0.170	0.364	1	1	3	3	1	1	1
+Hungary	Entrepreneurs	0.347	0.755	0.637	0.459	0.376	0.225	0.431	2	4	3	1	2	1	1
+Iceland	Entrepreneurs	0.360	0.517	0.578	0.544	0.559	0.526	0.742	3	3	2	2	3	3	4
+Ireland	Entrepreneurs	0.493	0.607	0.672	0.574	0.521	0.582	0.674	4	4	3	2	3	3	3
+Israel	Entrepreneurs	0.367	0.420	0.418	0.439	0.548	0.221	0.535	3	2	1	1	3	1	2
+Italy	Entrepreneurs	0.156	0.419	0.641	0.534	0.338	0.374	0.500	1	2	3	2	1	2	2
+Japan	Entrepreneurs	0.298	0.479	0.830	0.398	0.628	0.561	0.577	2	2	4	1	4	3	2
+Korea	Entrepreneurs	0.524	0.527	0.735	0.507	0.697	0.495	0.517	4	3	4	2	4	3	2
+Latvia	Entrepreneurs	0.340	0.542	0.681	0.379	0.328	0.417	0.410	2	3	4	1	1	2	1
+Luxembourg	Entrepreneurs	0.226	0.422	0.374	0.413	0.503	0.716	0.699	1	2	1	1	2	4	3
+Mexico	Entrepreneurs	0.515	0.423	0.500	0.500	0.062	0.122	0.281	4	2	1	2	1	1	1
+Netherlands	Entrepreneurs	0.141	0.460	0.631	0.703	0.558	0.485	0.739	1	2	3	4	3	2	3
+New Zealand	Entrepreneurs	0.642	0.361	0.642	0.670	0.479	0.659	0.689	4	1	3	4	2	4	3
+Norway	Entrepreneurs	0.385	0.359	0.554	0.660	0.545	0.532	0.788	3	1	2	4	3	3	4
+Poland	Entrepreneurs	0.346	0.624	0.408	0.433	0.353	0.421	0.494	2	4	1	1	1	2	1
+Portugal	Entrepreneurs	0.265	0.387	0.787	0.613	0.348	0.426	0.479	1	1	4	3	1	2	1
+Slovak Republic	Entrepreneurs	0.283	0.532	0.678	0.632	0.377	0.337	0.476	1	3	4	3	2	1	1
+Slovenia	Entrepreneurs	0.378	0.574	0.784	0.580	0.437	0.481	0.607	3	4	4	2	2	2	2
+Spain	Entrepreneurs	0.370	0.406	0.677	0.661	0.332	0.400	0.563	3	1	3	4	1	2	2
+Sweden	Entrepreneurs	0.356	0.374	0.630	0.652	0.617	0.604	0.752	2	1	3	4	4	4	4
+Switzerland	Entrepreneurs	0.356	0.585	0.421	0.619	0.547	0.771	0.762	2	4	1	3	3	4	4
+Turkey	Entrepreneurs	0.418	0.546	0.145	0.374	0.178	0.270	0.314	4	3	1	1	1	1	1
+United Kingdom	Entrepreneurs	0.394	0.454	0.566	0.814	0.585	0.350	0.667	3	2	2	4	4	1	3
+United States	Entrepreneurs	0.555	0.523	0.509	0.616	0.764	0.489	0.746	4	3	1	3	4	3	4
+Australia	Workers	0.658	0.431	0.690	0.647	0.556	0.695	0.764	2	2	4	3	3	4	4
+Austria	Workers	0.650	0.420	0.577	0.680	0.519	0.579	0.661	2	2	2	4	3	3	3
+Belgium	Workers	0.700	0.332	0.582	0.453	0.474	0.487	0.689	3	1	2	1	2	3	3
+Canada	Workers	0.752	0.475	0.750	0.572	0.538	0.604	0.756	3	3	4	2	3	4	4
+Chile	Workers	0.625	0.826	0.516	0.518	0.175	0.357	0.417	2	4	1	2	1	1	1
+Czech Republic	Workers	0.865	0.495	0.660	0.487	0.426	0.304	0.562	4	3	3	1	2	1	2
+Denmark	Workers	0.646	0.445	0.379	0.580	0.595	0.588	0.758	2	2	1	3	4	4	4
+Estonia	Workers	0.813	0.446	0.526	0.638	0.430	0.560	0.547	3	2	2	3	2	3	2
+Finland	Workers	0.543	0.409	0.582	0.549	0.586	0.526	0.727	1	2	2	2	4	3	3
+France	Workers	0.669	0.377	0.603	0.676	0.445	0.436	0.631	3	1	2	4	2	2	2
+Germany	Workers	0.580	0.437	0.607	0.620	0.627	0.562	0.709	1	2	2	3	4	3	3
+Greece	Workers	0.593	0.356	0.640	0.603	0.269	0.129	0.364	1	1	3	3	1	1	1
+Hungary	Workers	0.904	0.502	0.637	0.459	0.376	0.226	0.431	4	4	3	1	2	1	1
+Iceland	Workers	0.751	0.464	0.578	0.544	0.559	0.516	0.742	3	3	2	2	3	3	4
+Ireland	Workers	0.772	0.464	0.672	0.574	0.521	0.587	0.674	3	3	3	2	3	4	3
+Israel	Workers	0.603	0.466	0.418	0.439	0.548	0.207	0.535	1	3	1	1	3	1	2
+Italy	Workers	0.448	0.318	0.641	0.534	0.338	0.333	0.500	1	1	3	2	1	1	2
+Japan	Workers	0.242	0.493	0.830	0.398	0.628	0.556	0.577	1	3	4	1	4	3	2
+Korea	Workers	0.404	0.591	0.735	0.507	0.697	0.484	0.517	1	4	4	2	4	2	2
+Latvia	Workers	0.888	0.397	0.681	0.379	0.328	0.413	0.410	4	2	4	1	1	2	1
+Luxembourg	Workers	0.827	0.331	0.374	0.496	0.503	0.716	0.699	4	1	1	1	2	4	3
+Mexico	Workers	0.632	0.596	0.500	0.500	0.062	0.128	0.281	2	4	1	2	1	1	1
+Netherlands	Workers	0.569	0.503	0.631	0.703	0.558	0.491	0.739	1	4	3	4	3	3	3
+New Zealand	Workers	0.744	0.507	0.642	0.670	0.479	0.668	0.689	3	4	3	4	2	4	3
+Norway	Workers	0.663	0.336	0.554	0.660	0.545	0.543	0.788	2	1	2	4	3	3	4
+Poland	Workers	0.635	0.574	0.408	0.433	0.353	0.421	0.494	2	4	1	1	1	2	1
+Portugal	Workers	0.731	0.382	0.787	0.613	0.348	0.424	0.479	3	1	4	3	1	2	1
+Slovak Republic	Workers	0.863	0.461	0.678	0.632	0.377	0.336	0.476	4	2	4	3	2	1	1
+Slovenia	Workers	0.833	0.461	0.784	0.580	0.437	0.451	0.607	4	3	4	2	2	2	2
+Spain	Workers	0.461	0.384	0.677	0.661	0.332	0.374	0.563	1	1	3	4	1	2	2
+Sweden	Workers	0.639	0.331	0.630	0.652	0.617	0.627	0.752	2	1	3	4	4	4	4
+Switzerland	Workers	0.621	0.467	0.421	0.619	0.547	0.773	0.762	2	3	1	3	3	4	4
+Turkey	Workers	0.853	0.472	0.145	0.374	0.178	0.281	0.314	4	3	1	1	1	1	1
+United Kingdom	Workers	0.751	0.398	0.566	0.814	0.585	0.384	0.667	3	2	2	4	4	2	3
+United States	Workers	0.852	0.673	0.509	0.616	0.764	0.480	0.746	4	4	1	3	4	2	4

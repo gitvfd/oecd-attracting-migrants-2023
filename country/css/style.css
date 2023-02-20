@@ -1,0 +1,401 @@
+
+
+/* minimal css reset */
+html, body, div, h1, h2, h3, a, p, img, dl, dt, dd, ul, li {
+    padding: 0; margin: 0; border: 0; outline: 0; 
+}
+body{
+    background:#dce2e7;
+}
+/*****************************/
+/** Dropdown                **/
+/*****************************/
+
+#Country_sel{
+    /**display: block;**/
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;/**Allows to leave the tab on top of the page at all time**/
+    width:90%;
+	  margin-right:auto;
+	  margin-left:auto;
+    
+  	color:#575757;
+  	text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+
+    
+}
+#selCountry,#compCountry{
+  float:left;
+  width:100%;
+  padding:1px;
+  
+  border:solid;
+  border-width: 0.5px;
+  border-color:  #575757;
+  background-color: #c3d1da;/** CHange background color for dropdowns**/
+
+    display: inline;
+    font-family:Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align:center;
+    letter-spacing:normal;
+    color:#225760;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 1px 0;
+    background-color:#c3d1da;
+    vertical-align: baseline;
+    cursor: pointer;
+    border:none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  
+}
+
+#selCountry{
+  background-color: #2EAEB7;/** CHange background color for dropdowns**/
+
+
+}
+
+#compCountry{
+  background-color: #D89825;/** CHange background color for dropdowns**/
+
+
+}
+#country_dropdown{
+  font-family:'Raleway',  Helvetica, Arial, sans-serif;
+  
+  font-size:16px;
+  text-align:center;
+  letter-spacing:normal;
+  color:#225760;
+  padding: 0 1%;
+  vertical-align: baseline;
+  /*color: white;*/
+  cursor: pointer;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 1px 0;
+  background-color:#fff;/**#c3d1da;**/
+  border:none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: 5px;
+}
+.dropdown_text{
+  margin-left:5px;
+  font-family:'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#225760;
+  font-size:18px;
+  text-align:start;
+}
+
+
+#country_dropdown_comp{
+  font-family:'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+  font-size:16px;
+  text-align:center;
+  letter-spacing:normal;
+  color:#225760;
+  padding: 0 1%;
+  vertical-align: baseline;
+  /*color: white;*/
+  cursor: pointer;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 1px 0;
+  background-color: #fff;
+  border:none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: 5px;
+}
+.dropdown_text_comp{
+  margin-left:5px;
+  font-family:'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #225760;
+  font-size:18px;
+  text-align:start;
+}
+
+
+h1{
+	width:100%;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:10px;
+	font-family: 'Raleway',Caecilia, Georgia, serif;
+	color:#575757;
+	/**background: #d1dadf;**/
+	font-size:3.75em;
+	text-align:center;
+	letter-spacing: normal;
+}
+
+h2{
+	max-width:700px;
+	margin:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+	font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#575757;
+	font-size:48px;
+  text-align:center;
+}
+h3{
+  font-family: 'Raleway',"Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#575757;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size:24px;
+    text-decoration: underline;
+}
+
+.paragraph{
+	width:90%;
+	margin:auto;
+	padding-left:1.5%;
+	padding-right:1.5%;
+  font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#575757;
+	font-size:16px;
+	line-height: 1.5;
+	text-align:left;
+	letter-spacing: normal;
+}
+svg {
+	background: #dce2e7;
+	margin-right: 2px;
+	margin-left:2px;
+}
+
+
+.axis path{
+	stroke:none;
+}
+
+.axis line{
+	stroke:#7A7A7A;
+}
+
+.axis text{
+	font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	fill:#7A7A7A;
+}
+
+.lollipopText{
+	font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+}
+
+.titles{
+	font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:15px;
+	fill:#575757;
+  cursor: pointer;
+}
+
+.urgencyLabel{
+
+  font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:13px;
+  fill:rgb(89,89,89);
+}
+
+
+
+.noDataAvailable{
+  font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:12px;
+  font-style:italic;
+	fill:#575757;
+}
+
+
+.indicTitle{
+  width:45%;
+  font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:15px;
+  /**font-style:italic;**/
+  color:#494444;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10px;
+}
+
+.indicChart{
+    flex-grow: 1;
+}
+
+.introChart{
+  padding-bottom: 15px;
+}
+
+
+.label {
+  font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 120%;
+    font-weight: 400;
+    line-height: 1;
+
+    font-size: 80%;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.headingTitle,.Name{
+  fill:#575757;
+}
+
+/** Tooltip **/
+#indicTooltip {
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  background-color: rgb(252,252,252);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+#indicTooltip.hidden {
+  display: none;
+}
+
+#indicTooltip p {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+
+#titleDesc{
+  font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:rgb(89, 89, 89);
+  font-size:20px;
+  margin:0% 0% 0% 1%;
+  position: -webkit-sticky;
+  position: sticky;
+}
+#explainDesc{
+  margin:0% 1% 1% 1%;
+
+}
+
+#chartGuideDimDesc,#chartGuideDimDescEnd{
+  font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:16px;
+  font-style: italic;
+  fill:#7A7A7A;
+}
+
+#chartGuidePearl,#chartGuidePearlEnd{
+  font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:12px;
+  font-style: italic;
+  fill:#7A7A7A;
+}
+
+
+
+
+
+@media (max-width: 800px)  {
+  
+
+	.axis text{
+		font-size:11px;
+	}
+
+	.lollipopText{
+		font-size:11px;
+	}
+
+	.titles{
+		font-size:11px;
+	}
+
+	h1{
+		font-size:24px;
+	}
+
+	h2{
+		
+		font-size:18px;
+	}
+
+	.paragraph{
+			font-size:14px;
+	}
+
+  ul li {
+    margin: 15px;
+    font-size:14px;
+    line-height: 1;
+  }
+  .content p{
+
+      font-size:14px;
+  }
+	.def{
+	    font-size:14px;
+  }
+  .dimDef{
+    font-size:11px;
+  }
+
+  .dimTitle{
+    font-size:15px;
+  }
+
+  .indicTitle{
+    font-size:12px;
+  }
+  .tab button {
+    font-size:14px;
+  }
+  .dropdown_text,.dropdown_text_comp{
+    font-size:12px;
+  }
+  #country_dropdown,#country_dropdown_comp {
+    font-size:12px;
+  }
+
+  .label {
+    font-size: 60%;
+  }
+
+
+.img{
+  height: 15px;
+  width: 15px;
+  color:#fff;
+
+}
+.headingTitle,.Name{
+  font-size:9px;
+}
+
+
+#chartGuideDimDesc,#chartGuideDimDescEnd{
+  font-size:12px;
+}
+
+#chartGuidePearl,#chartGuidePearlEnd{
+  font-size:10px;
+}
+}
+
+
+
+

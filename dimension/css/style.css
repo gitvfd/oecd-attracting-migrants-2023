@@ -1,0 +1,640 @@
+
+body{
+
+  background-color:rgba(53, 96, 114,0.12);
+}
+/* minimal css reset */
+/**html, body, div, h1, h2, h3, a, p, img, dl, dt, dd, ul, li {
+	padding: 0; margin: 0; border: 0; outline: 0; 
+}**/
+/*****************************/
+/** Dropdown                **/
+/*****************************/
+
+.sortSection div {
+  display: block;
+  padding: 0 0 5px 5px;
+  clear: both;
+}
+
+.sortSection span {
+  
+  padding-left: 10px;
+  cursor: inherit;
+}
+
+.sortSection .labelRadio {
+  float: left;
+  width: 180px;
+  margin-top:5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:300;
+    font-size:12px;
+}
+
+.sortSection input {
+  float: left;
+  width: 20px;
+  /**margin-left: -20px;**/
+  margin-top: 6px; 
+  padding: 0;
+  -webkit-appearance: radio;
+}
+
+#Country_sel{
+    /**display: block;**/
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;/**Allows to leave the tab on top of the page at all time**/
+    width:90%;
+	  margin-right:auto;
+	  margin-left:auto;
+    
+  	color:#575757;
+  	text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+
+    
+}
+#selCountry,#compCountry{
+  float:left;
+  width:50%;
+  padding:1px;
+  margin-bottom:7px;
+  border:solid;
+  border-width: 0.5px;
+  border-color:  #575757;
+  background-color: #c3d1da;/** CHange background color for dropdowns**/
+}
+
+#selCountry{
+  background-color: rgb(251,176,64);/** CHange background color for dropdowns**/
+
+
+}
+
+#compCountry{
+  background-color: rgb(251,221,91);/** CHange background color for dropdowns**/
+
+
+}
+#country_dropdown{
+  font-family:Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+  font-size:16px;
+  text-align:center;
+  letter-spacing:normal;
+  color:#225760;
+  padding: 0 1%;
+  vertical-align: baseline;
+  /*color: white;*/
+  cursor: pointer;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 1px 0;
+  background-color:#fff;/**#c3d1da;**/
+  border:none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: 5px;
+}
+.dropdown_text{
+  margin-left:5px;
+  font-family:Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#225760;
+  font-size:18px;
+  text-align:start;
+}
+
+
+#country_dropdown_comp{
+  font-family:Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+  font-size:16px;
+  text-align:center;
+  letter-spacing:normal;
+  color:#225760;
+  padding: 0 1%;
+  vertical-align: baseline;
+  /*color: white;*/
+  cursor: pointer;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 1px 0;
+  background-color: #fff;
+  border:none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: 5px;
+}
+.dropdown_text_comp{
+  margin-left:5px;
+  font-family:Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #225760;
+  font-size:18px;
+  text-align:start;
+}
+
+/** TABS ***/
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    margin-left:10%;
+
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #494444;
+    font-size:16px;
+    background-color: #bbc8d0;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #a4b6c0;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #b18ea4;
+    color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+}
+
+/** END TABS ***/
+
+/** ****************** **/
+/** Dimensions buttons **/
+/** ****************** **/
+
+#dimTab,#sortSection{
+  margin: auto;
+  width: 90%;
+  margin:auto;
+}
+
+
+.btn {
+  margin-top:2px;margin-bottom: 2px;
+  background-color: #bbc8d0;
+  border: none;
+  color: white;
+  padding: 8px 7px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #a4b6c0;
+}
+
+.img{
+  height: 35px;
+  width: 35px;
+  color:#fff;
+
+}
+
+.infoImg{
+    margin-left:10px;
+  height: 15px;
+  width: 15px;
+  opacity:0.8;
+  cursor: pointer;
+}
+
+h1{
+	width:100%;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:10px;
+	font-family: Caecilia, Georgia, serif;
+	color:#575757;
+	/**background: #d1dadf;**/
+	font-size:3.75em;
+	text-align:center;
+	letter-spacing: normal;
+}
+
+h2{
+	max-width:700px;
+	margin:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+	font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#575757;
+	font-size:48px;
+  text-align:center;
+}
+h3{
+  font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#575757;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size:24px;
+    text-decoration: underline;
+}
+
+.paragraph{
+	width:90%;
+	margin:auto;
+	padding-left:1.5%;
+	padding-right:1.5%;
+  font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#575757;
+	font-size:16px;
+	line-height: 1.5;
+	text-align:left;
+	letter-spacing: normal;
+}
+svg {
+	background: #dce2e7;
+	margin-right: 2px;
+	margin-left:2px;
+}
+
+
+.axis path{
+	stroke:none;
+}
+
+.axis line{
+	stroke:#7A7A7A;
+}
+
+.axis text{
+	font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	fill:#7A7A7A;
+}
+
+.lollipopText{
+	font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+}
+
+.titles{
+	font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:15px;
+	fill:#575757;
+  cursor: pointer;
+}
+
+.urgencyLabel{
+
+  font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:13px;
+  fill:rgb(89,89,89);
+}
+
+.bartext{
+  font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:12px;
+  font-style:italic;
+  fill:#DDE9EF;
+}
+
+
+
+.noDataAvailable{
+  font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:12px;
+  font-style:italic;
+	fill:#575757;
+}
+
+/*****************************/
+/**......INDIC SECTIONS.... **/
+/*****************************/
+
+#Challenges,#Responses{
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.indicatorPres{
+  background-color: #dde3e7;
+  margin-top:10px;
+  display: flex;
+}
+:root {
+  --default-padding: 16px;
+  --header-height: 52px;
+  --sticky-pos: 52px;
+}
+.dimTitle{
+  /**position: sticky;
+  top: var(--sticky-pos); 
+  /**display: flex;
+  height: var(--header-height);**/
+  font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:20px;
+  color:#0297C9;
+  margin-right: 5%;
+  margin-top:5px;
+  cursor: pointer;
+}
+
+
+.dimDef{
+  font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:13px;
+  line-height: 1;
+  font-style:italic;
+  cursor: pointer;
+}
+
+.collapseSymbol{
+  margin-right:10px;
+  margin-left:10px;
+  cursor: pointer;
+}
+.text-toogle{
+  margin-top:10px;
+  border-bottom:1px solid #b18ea4;
+}
+.text-toogle[aria-expanded=false] .text-expanded {
+  display: none;
+}
+.text-toogle[aria-expanded=true] .text-collapsed {
+  display: none;
+}
+
+#UrgencyTitle{
+  color: rgb(89,89,89);
+  cursor: pointer;
+}
+#CoverageTitle{
+  color:rgb(102,45,145);
+  cursor: pointer;
+}
+#InclusivenessTitle{
+  color:rgb(161,138,186);
+  cursor: pointer;
+}
+#AlignmentTitle{
+  color:rgb(57,181,74);
+  cursor: pointer;
+}
+#FinancingTitle{
+  color:rgb(0, 104, 56);
+  cursor: pointer;
+}
+#FlexiguidanceTitle{
+  color:rgb(0,167,157);
+  cursor: pointer;
+}
+#QualityTitle{
+  color:rgb(43,182,115);
+  cursor: pointer;
+}
+
+
+.sticky_sentinel {
+  background: yellow;
+  position: absolute;
+  left: 0;
+  right: 0; /* needs dimensions */
+  visibility: hidden;
+}
+.sticky_sentinel--top {
+  /* Adjust the height and top values based on your on your sticky top position.
+  e.g. make the height bigger and adjust the top so observeHeaders()'s
+  IntersectionObserver fires as soon as the bottom of the sentinel crosses the
+  top of the intersection container. */
+  height: 40px;
+  top: -24px;
+}
+.sticky_sentinel--bottom {
+  bottom: 0;
+  /* Height should match the top of the header when it's at the bottom of the
+  intersection container. */
+  height: calc(var(--header-height) + var(--default-padding));
+}
+
+[data-lorem] {
+  clear: both;
+  margin-bottom: 0;
+  text-align: justify;
+  padding: 0;
+  position: block; /* contain the sentinels */
+  /**background-color:#dce2e7;**/
+}
+
+.indicTitle{
+  width:45%;
+  font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:15px;
+  /**font-style:italic;**/
+  color:#494444;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10px;
+}
+
+.indicChart{
+    flex-grow: 1;
+}
+
+.introChart{
+  padding-bottom: 15px;
+}
+
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 1;
+
+    font-size: 80%;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.headingTitle,.Name{
+  fill:#575757;
+}
+
+/** Tooltip **/
+#indicTooltip {
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  background-color: rgb(252,252,252);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+#indicTooltip.hidden {
+  display: none;
+}
+
+#indicTooltip p {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+
+#titleDesc{
+  clear:both;
+  display: block;
+  font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:rgb(77, 77, 77);
+  font-size:20px;
+  text-decoration: underline;
+  margin:1% 0% 1% 1%;
+  position: -webkit-sticky;
+  position: sticky;
+}
+#explainDesc{
+  margin:0% 1% 1% 1%;
+
+}
+
+#chartGuideDimDesc,#chartGuideDimDescEnd{
+  font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:16px;
+  font-style: italic;
+  fill:#7A7A7A;
+}
+
+#chartGuidePearl,#chartGuidePearlEnd{
+  font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:12px;
+  font-style: italic;
+  fill:#7A7A7A;
+}
+
+
+
+
+
+@media (max-width: 800px)  {
+  
+
+    .axis text{
+      font-size:11px;
+    }
+
+    .lollipopText{
+      font-size:11px;
+    }
+
+    .titles{
+      font-size:11px;
+    }
+
+    h1{
+      font-size:24px;
+    }
+
+    h2{
+      
+      font-size:18px;
+    }
+
+    .paragraph{
+        font-size:14px;
+    }
+
+    ul li {
+      margin: 15px;
+      font-size:14px;
+      line-height: 1;
+    }
+    .content p{
+
+        font-size:14px;
+    }
+    .def{
+        font-size:14px;
+    }
+    .dimDef{
+      font-size:11px;
+    }
+
+    .dimTitle{
+      font-size:15px;
+    }
+
+    .indicTitle{
+      font-size:12px;
+    }
+    .tab button {
+      font-size:14px;
+    }
+    .dropdown_text,.dropdown_text_comp{
+      font-size:12px;
+    }
+    #country_dropdown,#country_dropdown_comp {
+      font-size:12px;
+    }
+
+    .label {
+      font-size: 60%;
+    }
+
+
+  .img{
+    height: 15px;
+    width: 15px;
+    color:#fff;
+
+  }
+  .headingTitle,.Name{
+    font-size:9px;
+  }
+
+
+  #chartGuideDimDesc,#chartGuideDimDescEnd{
+    font-size:12px;
+  }
+
+  #chartGuidePearl,#chartGuidePearlEnd{
+    font-size:10px;
+  }
+
+  .sortSection span {
+   clear: both;
+    display: block;
+    padding-left: 40px;
+  }
+
+
+  .sortSection input {
+  clear: both;
+    margin-left: -20px;
+  }
+
+
+
+}
+
+
+
+

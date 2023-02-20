@@ -1,0 +1,8 @@
+dim	dimDef
+QUALITY_OF_OPPORTUNITIES	What chance of getting a foothold? Quality of labour market opportunities for highly educated workers, ease of setting up a business for entrepreneurs, and the prestige of universities for students.
+INCOME	What chance to get rich? The earnings of highly educated workers, the cost of living at destination, and tax.
+FUTURE_PROSPECTS	What’s the long-term outlook? Long-term integration and political participation, ease of status change and access to citizenship.
+FAMILY_ENVIRONMENT	Good for family life? Opportunities for family members in terms of entry laws and labour market integration, childcare costs and family benefits.
+SKILLS_ENVIRONMENT	Good place for talent to work? Skills environment, facilities and infrastructure, R&D, connectivity and English proficiency.
+INCLUSIVENESS	Is everyone welcome? The degree of diversity, natives’ attitudes towards immigration, gender equality.
+QUALITY_OF_LIFE	The OECD Better Life Index, which encapsulates many quality of life indicators: environment, income, etc.

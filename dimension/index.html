@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--The browser can use non-English-language characters (...kind of) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="libs/d3.v4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="js/charter.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div id="dimTab">
+      <button class="btn" id="Quality_of_opportunities_Desc">
+        <img src="img/Quality_of_opportunities.svg" class="img" /> Quality of
+        opportunities<img
+          src="img/info.svg"
+          class="infoImg"
+          id="QUALITY_OF_OPPORTUNITIES"
+        />
+      </button>
+      <button class="btn" id="Income_Desc">
+        <img src="img/Income.svg" class="img" /> Income and tax<img
+          src="img/info.svg"
+          class="infoImg"
+          id="INCOME"
+        />
+      </button>
+      <button class="btn" id="Future_prospects_Desc">
+        <img src="img/Future_prospects.svg" class="img" /> Future prospects<img
+          src="img/info.svg"
+          class="infoImg"
+          id="FUTURE_PROSPECTS"
+        />
+      </button>
+      <button class="btn" id="Family_environment_Desc">
+        <img src="img/Family_environment.svg" class="img" /> Family
+        environment<img
+          src="img/info.svg"
+          class="infoImg"
+          id="FAMILY_ENVIRONMENT"
+        />
+      </button>
+      <button class="btn" id="Skills_environment_Desc">
+        <img src="img/Skills_environment.svg" class="img" /> Skills
+        environment<img
+          src="img/info.svg"
+          class="infoImg"
+          id="SKILLS_ENVIRONMENT"
+        />
+      </button>
+      <button class="btn" id="Inclusiveness_Desc">
+        <img src="img/Inclusiveness.svg" class="img" /> Inclusiveness<img
+          src="img/info.svg"
+          class="infoImg"
+          id="INCLUSIVENESS"
+        />
+      </button>
+      <button class="btn" id="Quality_of_life_Desc">
+        <img src="img/Quality_of_life.svg" class="img" /> Quality of life<img
+          src="img/info.svg"
+          class="infoImg"
+          id="QUALITY_OF_LIFE"
+        />
+      </button>
+    </div>
+    <br />
+    <div class="sortSection">
+      Sort by:
+      <br />
+      <form>
+        <span
+          ><input
+            type="radio"
+            id="WorkersButton"
+            name="sort"
+            value="Workers"
+            onclick="sortupdate()"
+          /><label class="labelRadio">Highly Educated Workers</label></span
+        >
+        <span
+          ><input
+            type="radio"
+            id="EntrepreneursButton"
+            name="sort"
+            value="Entrepreneurs"
+            onclick="sortupdate()"
+          /><label class="labelRadio">Entrepreneurs</label></span
+        >
+        <span
+          ><input
+            type="radio"
+            id="StudentButton"
+            name="sort"
+            value="Students"
+            onclick="sortupdate()"
+          /><label class="labelRadio">University Students</label></span
+        >
+        <span
+          ><input
+            type="radio"
+            id="Start-up-foundersButton"
+            name="sort"
+            value="Start-up founders"
+            onclick="sortupdate()"
+          /><label class="labelRadio">Start-up founders</label></span
+        >
+      </form>
+    </div>
+    <br />
+    <div id="titleDesc">Quality of opportunities</div>
+    <!--<div id="explainDesc">New technologies, globalisation and population ageing are influencing the quantity and quality of jobs that are
+      available and the skills workers need to do them yet many adults lack strong basic skills to help them access these new
+      opportunities.. The urgency dimension assesses how pressing the need for up- and reskilling is in different countries.</div>-->
+    <div id="chart"></div>
+  </body>
+
+  <script>
+    var data = [];
+    var counter = 0;
+
+    d3.tsv("data/data.tsv", function (error, dataTot) {
+      dataTot.forEach(function (d) {
+        data.push(d);
+        counter++;
+        if (counter === dataTot.length) {
+          createChart("Quality_of_opportunities");
+        }
+      });
+    });
+    var selDimPlaceholder = "Quality_of_opportunities";
+
+    var width = document.getElementById("chart").offsetWidth;
+
+    var height;
+    var margin = 50;
+    var padding = 0;
+    var lollipopRadius = 5;
+    var lollipopColor = "#585a5c";
+    var lollipopText = "#585a5c";
+
+    var dimColor = d3
+      .scaleOrdinal()
+      .domain(["Workers", "Entrepreneurs", "Student", "Start-up founders"])
+      .range(["#A6584D", "#31999B", " #EC9459", "072448"]);
+
+    var lollipopsCircle;
+    var lollipopsText;
+    var lollipopsLine;
+
+    var xScale;
+    var yScale;
+
+    var svg = d3.select("#chart").append("svg").style("background", "none");
+
+    var format = d3.format(",.0f");
+
+    d3.selectAll(".btn").on("click", function (d) {
+      //console.log(this.id)
+      if (this.id == "Quality_of_opportunities_Desc")
+        update("Quality_of_opportunities");
+      if (this.id == "Income_Desc") update("Income");
+      if (this.id == "Future_prospects_Desc") update("Future_prospects");
+      if (this.id == "Family_environment_Desc") update("Family_environment");
+      if (this.id == "Skills_environment_Desc") update("Skills_environment");
+      if (this.id == "Inclusiveness_Desc") update("Inclusiveness");
+      if (this.id == "Quality_of_life_Desc") update("Quality_of_life");
+    });
+
+    var tooltip = d3
+      .select("body")
+      .append("div")
+      .style("position", "absolute")
+      .style("z-index", "20")
+      .style("visibility", "hidden")
+      .style("color", "#474747")
+      .style("padding", "8px")
+      .style("background-color", "#f0f0f0")
+      .style("border-radius", "3px")
+      .style("font", "11")
+      .style("font-family", "Quattrocento Sans")
+      .style("text-anchor", "middle")
+      .style("max-width", "200px")
+      .text("");
+
+    var mousemove = function () {
+      return tooltip
+        .style("top", d3.event.pageY - 10 + "px")
+        .style("left", d3.event.pageX + 10 + "px");
+    };
+
+    var mouseout = function () {
+      return tooltip.style("visibility", "hidden");
+    };
+
+    var dimInfo = [];
+    d3.tsv("data/dim.tsv", function (error, infoTot) {
+      infoTot.forEach(function (d) {
+        dimInfo.push(d);
+      });
+    });
+
+    d3.selectAll(".infoImg")
+      .on("mouseover", function () {
+        var infoID = d3.select(this).attr("id");
+        var defDim = "";
+        dimInfo.forEach(function (d) {
+          if (d.dim == infoID) defDim = d.dimDef;
+        });
+        tooltip.html(defDim);
+        tooltip.style("visibility", "visible");
+      })
+      .on("mousemove", mousemove)
+      .on("mouseout", mouseout);
+  </script>
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      "script",
+      "//www.google-analytics.com/analytics.js",
+      "ga"
+    );
+
+    ga("create", "UA-51983915-1", "auto");
+    ga("send", "pageview");
+  </script>
+</html>

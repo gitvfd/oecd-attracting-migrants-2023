@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8" />
+
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="libs/d3.v4.min.js"></script>
+    <script src="js/update.js"></script>
+  </head>
+
+  <body id="page">
+    <div id="wrapper">
+      <div id="selector">
+        <h1>Enter your preferences!</h1>
+        <div class="selTitle">Category:</div>
+        <select class="dropdownSel" id="ctrSel" onchange="createChart()">
+          <option value="Workers">Highly Educated Workers</option>
+          <option value="Entrepreneurs">Entrepreneurs</option>
+          <option value="Students">University Students</option>
+          <option value="Start-ups">Start-up Founders</option>
+        </select>
+        <!--<div class="selTitle">Your familly structure:</div>
+        <select class="dropdownSel" id="criSelector" onchange="update()">
+                <option value="Population share by income class">-</option>
+                <option value="family type: single adult">family type:single adult</option>
+                <option value="family type: single parent">family type:single parent</option>
+                <option value="family type: couple with children">family type:couple with children</option>
+                <option value="family type: couple with no children">family type:couple with no children</option>
+            </select>-->
+
+        <div class="selTitle">
+          <img src="img/Quality_of_opportunities.svg" class="img" /> Quality of
+          opportunities
+          <img
+            src="img/info.svg"
+            class="infoImg"
+            id="QUALITY_OF_OPPORTUNITIES"
+          />
+        </div>
+        <form>
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Quality_of_opportunities_radio_1"
+              name="Quality_of_opportunities_name"
+              value="1"
+              onclick="update()"
+            />
+            Less important</label
+          >
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Quality_of_opportunities_radio_2"
+              name="Quality_of_opportunities_name"
+              value="3"
+              onclick="update()"
+              checked
+            />
+            important</label
+          >
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Quality_of_opportunities_radio_3"
+              name="Quality_of_opportunities_name"
+              value="5"
+              onclick="update()"
+            />
+            More important</label
+          >
+        </form>
+
+        <div class="selTitle">
+          <img src="img/Income.svg" class="img" />Income and tax
+          <img src="img/info.svg" class="infoImg" id="INCOME" />
+        </div>
+        <form>
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Income_radio_1"
+              name="Income_name"
+              value="1"
+              onclick="update()"
+            />
+            Less important</label
+          >
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Income_radio_2"
+              name="Income_name"
+              value="3"
+              onclick="update()"
+              checked
+            />
+            important</label
+          >
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Income_radio_3"
+              name="Income_name"
+              value="5"
+              onclick="update()"
+            />
+            More important</label
+          >
+        </form>
+
+        <div class="selTitle">
+          <img src="img/Future_prospects.svg" class="img" />Future prospects
+          <img src="img/info.svg" class="infoImg" id="FUTURE_PROSPECTS" />
+        </div>
+        <form>
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Future_prospects_radio_1"
+              name="Future_prospects_name"
+              value="1"
+              onclick="update()"
+            />
+            Less important</label
+          >
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Future_prospects_radio_2"
+              name="Future_prospects_name"
+              value="3"
+              onclick="update()"
+              checked
+            />
+            important</label
+          >
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Future_prospects_radio_3"
+              name="Future_prospects_name"
+              value="5"
+              onclick="update()"
+            />
+            More important</label
+          >
+        </form>
+
+        <div class="selTitle">
+          <img src="img/Family_environment.svg" class="img" />Family environment
+          <img src="img/info.svg" class="infoImg" id="FAMILY_ENVIRONMENT" />
+        </div>
+        <form>
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Family_environment_radio_1"
+              name="Family_environment_name"
+              value="1"
+              onclick="update()"
+            />
+            Less important</label
+          >
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Family_environment_radio_2"
+              name="Family_environment_name"
+              value="3"
+              onclick="update()"
+              checked
+            />
+            important</label
+          >
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Family_environment_radio_3"
+              name="Family_environment_name"
+              value="5"
+              onclick="update()"
+            />
+            More important</label
+          >
+        </form>
+
+        <div class="selTitle">
+          <img src="img/Skills_environment.svg" class="img" />Skills environment
+          <img src="img/info.svg" class="infoImg" id="SKILLS_ENVIRONMENT" />
+        </div>
+        <form>
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Skills_environment_radio_1"
+              name="Skills_environment_name"
+              value="1"
+              onclick="update()"
+            />
+            Less important</label
+          >
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Skills_environment_radio_2"
+              name="Skills_environment_name"
+              value="3"
+              onclick="update()"
+              checked
+            />
+            important</label
+          >
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Skills_environment_radio_3"
+              name="Skills_environment_name"
+              value="5"
+              onclick="update()"
+            />
+            More important</label
+          >
+        </form>
+
+        <div class="selTitle">
+          <img src="img/Inclusiveness.svg" class="img" />Inclusiveness
+          <img src="img/info.svg" class="infoImg" id="INCLUSIVENESS" />
+        </div>
+        <form>
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Inclusiveness_radio_1"
+              name="Inclusiveness_name"
+              value="1"
+              onclick="update()"
+            />
+            Less important</label
+          >
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Inclusiveness_radio_2"
+              name="Inclusiveness_name"
+              value="3"
+              onclick="update()"
+              checked
+            />
+            important</label
+          >
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Inclusiveness_radio_3"
+              name="Inclusiveness_name"
+              value="5"
+              onclick="update()"
+            />
+            More important</label
+          >
+        </form>
+
+        <div class="selTitle">
+          <img src="img/Quality_of_life.svg" class="img" />Quality of life
+          <img src="img/info.svg" class="infoImg" id="QUALITY_OF_LIFE" />
+        </div>
+        <form>
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Quality_of_life_radio_1"
+              name="Quality_of_life_name"
+              value="1"
+              onclick="update()"
+            />
+            Less important</label
+          >
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Quality_of_life_radio_2"
+              name="Quality_of_life_name"
+              value="3"
+              onclick="update()"
+              checked
+            />
+            important</label
+          >
+          <label class="radio"
+            ><input
+              type="radio"
+              id="Quality_of_life_radio_3"
+              name="Quality_of_life_name"
+              value="5"
+              onclick="update()"
+            />
+            More important</label
+          >
+        </form>
+        <br />
+        <div class="selTitle">
+          Does Health matter?
+          <img src="img/info.svg" class="infoImg" id="HEALTH" />
+        </div>
+        <form>
+          <label class="radio healthCheck"
+            ><input
+              type="radio"
+              id="Health_radio_1"
+              name="Health_name"
+              value="0"
+              onclick="update()"
+              checked
+            />
+            Do not matter</label
+          >
+          <label class="radio healthCheck"
+            ><input
+              type="radio"
+              id="Health_radio_2"
+              name="Health_name"
+              value="1"
+              onclick="update()"
+            />
+            Less important</label
+          >
+          <label class="radio healthCheck"
+            ><input
+              type="radio"
+              id="Health_radio_3"
+              name="Health_name"
+              value="2"
+              onclick="update()"
+            />
+            Important</label
+          >
+          <label class="radio healthCheck"
+            ><input
+              type="radio"
+              id="Health_radio_4"
+              name="Health_name"
+              value="3"
+              onclick="update()"
+            />
+            More important</label
+          >
+        </form>
+      </div>
+      <div id="chart"></div>
+    </div>
+    <br />
+  </body>
+  <script>
+    var data = [];
+    var counter = 0;
+
+    d3.tsv("data/data.tsv", function (error, dataTot) {
+      dataTot.forEach(function (d) {
+        data.push(d);
+        counter++;
+        if (counter === dataTot.length) {
+          createChart();
+        }
+      });
+    });
+
+    var width = document.getElementById("chart").offsetWidth;
+    var margin = 50;
+    var padding = 0;
+    var lollipopRadius = 7;
+    var lollipopColor = "#2EAEB7";
+    var lollipopText = "#585a5c";
+
+    var lollipopsCircle;
+    var lollipopsText;
+    var lollipopsLine;
+
+    var xScale;
+    var yScale;
+
+    var svg = d3.select("#chart").append("svg").style("background", "none");
+
+    var format = d3.format(",.0f");
+
+    var tooltip = d3
+      .select("body")
+      .append("div")
+      .style("position", "absolute")
+      .style("z-index", "20")
+      .style("visibility", "hidden")
+      .style("color", "#474747")
+      .style("padding", "8px")
+      .style("background-color", "#f0f0f0")
+      .style("border-radius", "3px")
+      .style("font", "11")
+      .style("font-family", "Quattrocento Sans")
+      .style("text-anchor", "middle")
+      .style("max-width", "200px")
+      .text("");
+
+    var mousemove = function () {
+      return tooltip
+        .style("top", d3.event.pageY - 10 + "px")
+        .style("left", d3.event.pageX + 10 + "px");
+    };
+
+    var mouseout = function () {
+      return tooltip.style("visibility", "hidden");
+    };
+
+    var dimInfo = [];
+    d3.tsv("data/dim.tsv", function (error, infoTot) {
+      infoTot.forEach(function (d) {
+        dimInfo.push(d);
+      });
+    });
+
+    d3.selectAll(".infoImg")
+      .on("mouseover", function () {
+        var infoID = d3.select(this).attr("id");
+        var defDim = "";
+        dimInfo.forEach(function (d) {
+          if (d.dim == infoID) defDim = d.dimDef;
+        });
+        tooltip.html(defDim);
+        tooltip.style("visibility", "visible");
+      })
+      .on("mousemove", mousemove)
+      .on("mouseout", mouseout);
+  </script>
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      "script",
+      "//www.google-analytics.com/analytics.js",
+      "ga"
+    );
+
+    ga("create", "UA-51983915-1", "auto");
+    ga("send", "pageview");
+  </script>
+</html>

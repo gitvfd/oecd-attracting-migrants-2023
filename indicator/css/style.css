@@ -1,0 +1,318 @@
+body {
+  background-color: rgba(53, 96, 114, 0.12);
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #575757;
+
+  margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+}
+
+.selTitle {
+  display: break;
+  min-width: 50%;
+  margin-top: 1.5em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.healthTitle {
+  display: break;
+  min-width: 50%;
+  margin-top: 1.5em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 0.7em;
+}
+#expTitle {
+  display: break;
+  min-width: 50%;
+  margin-top: 1.5em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: #575757;
+}
+
+#explainer {
+  display: break;
+  min-width: 50%;
+  font-family: "Raleway", sans-serif;
+  color: #575757;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+#explainer ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+#explainer li {
+  margin: 0 0 7.5px 0px;
+}
+#wrapper {
+  width: 100%;
+  /**margin: 0 auto;**/
+  display: flex;
+  /**flex-wrap: wrap;**/
+}
+
+.annotation {
+  font-family: "Raleway", sans-serif;
+  color: #575757;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+#selector {
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: #7a7a7a;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  float: left;
+  width: 20%;
+  min-width: 300px;
+  height: 100%;
+
+  /**background: #d1dadf;**/
+  flex-grow: 1;
+  flex-basis: 25%;
+}
+
+#chart {
+  float: right;
+  /**width:80%;**/
+  width: 80%;
+  min-height: 100%;
+  /**background: #ffffff;*/
+  flex-grow: 1;
+  flex-basis: 75%;
+}
+
+.img {
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  color: #fff;
+}
+.infoImg {
+  margin-left: 1px;
+  height: 15px;
+  width: 15px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.radio {
+  display: inline-block;
+  width: 95px;
+  height: 20px;
+  text-align: center;
+  vertical-align: top;
+  padding-top: 5px;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+.healthCheck {
+  display: inline-block;
+  width: 70px;
+  height: 20px;
+  text-align: center;
+  vertical-align: top;
+  padding-top: 5px;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+}
+
+.dropdownSel {
+  display: inline;
+  font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: normal;
+  color: #225760;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 1px 0;
+  background-color: #c3d1da;
+  margin-bottom: 5px;
+  min-width: 90%;
+  margin-top: 5px;
+  vertical-align: baseline;
+  cursor: pointer;
+  border: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+#incomeSel {
+  display: inline;
+  font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: normal;
+  color: #225760;
+  min-width: 90%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 1px 0;
+  background-color: #c3d1da;
+  border: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+#year2010s,
+#year2000s,
+#supInfo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #575757;
+  fill: #575757;
+}
+
+.chartText {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  fill: #fff;
+}
+
+.annotText {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  fill: #575757;
+}
+.annotIncomeText {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  fill: #fe8c77;
+  text-align: left;
+}
+#sentence {
+  display: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  color: #575757;
+  line-height: 1.4;
+}
+.highlight {
+  font-weight: 900;
+  color: rgb(53, 96, 114);
+}
+
+#comparaison {
+  width: 90%;
+  position: fixed;
+  top: 1%;
+  left: 2.5%;
+
+  /**background-image: linear-gradient(to left, rgba(79, 241, 238,0.05), rgb(53, 96, 114,0.15));**/
+
+  background-color: rgba(231, 235, 237);
+  padding: 2.5%;
+  display: none;
+  border-style: solid;
+  border-width: 0.25px;
+  border-color: #575757;
+}
+
+#selCouName {
+  font-weight: 900;
+  color: rgb(53, 96, 114);
+}
+
+.chartTitle {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  fill: #575757;
+}
+
+svg {
+  background: #dce2e7;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.axis path {
+  stroke: none;
+}
+
+.axis line {
+  stroke: none;
+}
+
+.axis text {
+  font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 12px;
+  fill: #7a7a7a;
+}
+
+.lollipopText {
+  font-family: Bernini, "Bernini Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+}
+@media (max-width: 800px) {
+  .dropdownSel {
+    font-size: 12px;
+  }
+
+  #year2010s,
+  #year2000s,
+  #supInfo {
+    font-size: 18px;
+  }
+
+  .chartTitle {
+    font-size: 14px;
+  }
+  #incomeSel {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 600px) {
+  #year2010s,
+  #year2000s,
+  #supInfo {
+    font-size: 16px;
+  }
+  #wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #selector {
+    width: 100%;
+  }
+
+  #chart {
+    width: 100%;
+  }
+
+  .img {
+    height: 15px;
+    width: 15px;
+    color: #fff;
+  }
+}
