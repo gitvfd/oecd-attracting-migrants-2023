@@ -6,7 +6,7 @@ function createChart(dimensionName) {
 
   svg
     .selectAll("legendCircle")
-    .data(["Workers", "Entrepreneurs", "Students"])
+    .data(["Workers", "Entrepreneurs", "Students", "Start-up founders"])
     .enter()
     .append("circle")
     .attr("class", "legendCircle")
@@ -24,7 +24,12 @@ function createChart(dimensionName) {
 
   svg
     .selectAll("legendText")
-    .data(["Highly Educated Workers", "Entrepreneurs", "University Students"])
+    .data([
+      "Highly Educated Workers",
+      "Entrepreneurs",
+      "University Students",
+      "Start-up founders",
+    ])
     .enter()
     .append("text")
     .attr("class", "legendText")

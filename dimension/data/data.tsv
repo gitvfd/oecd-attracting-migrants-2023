@@ -1,4 +1,18 @@
 Cat	Countries	Dimension	value
+Start-up founders	Costa Rica	Quality_of_opportunities
+Start-up founders	Costa Rica	Income
+Start-up founders	Costa Rica	Future_prospects
+Start-up founders	Costa Rica	Family_environment
+Start-up founders	Costa Rica	Skills_environment
+Start-up founders	Costa Rica	Inclusiveness
+Start-up founders	Costa Rica	Quality_of_life
+Students	Costa Rica	Quality_of_opportunities
+Students	Costa Rica	Income
+Students	Costa Rica	Future_prospects
+Students	Costa Rica	Family_environment
+Students	Costa Rica	Skills_environment
+Students	Costa Rica	Inclusiveness
+Students	Costa Rica	Quality_of_life
 Workers	Australia	Quality_of_opportunities	0.727
 Workers	Austria	Quality_of_opportunities	0.571
 Workers	Belgium	Quality_of_opportunities	0.690
@@ -958,7 +972,6 @@ Start-up founders	Poland	Quality_of_life	0.526
 Start-up founders	Portugal	Quality_of_life	0.465
 Start-up founders	Sweden	Quality_of_life	0.744
 Start-up founders	United States	Quality_of_life	0.709
-Students	Costa Rica	Quality_of_opportunities
 Start-up founders	Belgium	Quality_of_opportunities
 Start-up founders	Switzerland	Quality_of_opportunities
 Start-up founders	Colombia	Quality_of_opportunities
@@ -972,7 +985,6 @@ Start-up founders	Norway	Quality_of_opportunities
 Start-up founders	Slovak Republic	Quality_of_opportunities
 Start-up founders	Slovenia	Quality_of_opportunities
 Start-up founders	Turkey	Quality_of_opportunities
-Students	Costa Rica	Income
 Start-up founders	Belgium	Income
 Start-up founders	Switzerland	Income
 Start-up founders	Colombia	Income
@@ -986,7 +998,6 @@ Start-up founders	Norway	Income
 Start-up founders	Slovak Republic	Income
 Start-up founders	Slovenia	Income
 Start-up founders	Turkey	Income
-Students	Costa Rica	Future_prospects
 Start-up founders	Belgium	Future_prospects
 Start-up founders	Switzerland	Future_prospects
 Start-up founders	Colombia	Future_prospects
@@ -1000,7 +1011,6 @@ Start-up founders	Norway	Future_prospects
 Start-up founders	Slovak Republic	Future_prospects
 Start-up founders	Slovenia	Future_prospects
 Start-up founders	Turkey	Future_prospects
-Students	Costa Rica	Family_environment
 Start-up founders	Belgium	Family_environment
 Start-up founders	Switzerland	Family_environment
 Start-up founders	Colombia	Family_environment
@@ -1014,7 +1024,6 @@ Start-up founders	Norway	Family_environment
 Start-up founders	Slovak Republic	Family_environment
 Start-up founders	Slovenia	Family_environment
 Start-up founders	Turkey	Family_environment
-Students	Costa Rica	Skills_environment
 Start-up founders	Belgium	Skills_environment
 Start-up founders	Switzerland	Skills_environment
 Start-up founders	Colombia	Skills_environment
@@ -1028,7 +1037,6 @@ Start-up founders	Norway	Skills_environment
 Start-up founders	Slovak Republic	Skills_environment
 Start-up founders	Slovenia	Skills_environment
 Start-up founders	Turkey	Skills_environment
-Students	Costa Rica	Inclusiveness
 Start-up founders	Belgium	Inclusiveness
 Start-up founders	Switzerland	Inclusiveness
 Start-up founders	Colombia	Inclusiveness
@@ -1042,7 +1050,6 @@ Start-up founders	Norway	Inclusiveness
 Start-up founders	Slovak Republic	Inclusiveness
 Start-up founders	Slovenia	Inclusiveness
 Start-up founders	Turkey	Inclusiveness
-Students	Costa Rica	Quality_of_life
 Start-up founders	Belgium	Quality_of_life
 Start-up founders	Switzerland	Quality_of_life
 Start-up founders	Colombia	Quality_of_life
@@ -1056,10 +1063,3 @@ Start-up founders	Norway	Quality_of_life
 Start-up founders	Slovak Republic	Quality_of_life
 Start-up founders	Slovenia	Quality_of_life
 Start-up founders	Turkey	Quality_of_life
-Start-up founders	Costa Rica	Quality_of_opportunities
-Start-up founders	Costa Rica	Income
-Start-up founders	Costa Rica	Future_prospects
-Start-up founders	Costa Rica	Family_environment
-Start-up founders	Costa Rica	Skills_environment
-Start-up founders	Costa Rica	Inclusiveness
-Start-up founders	Costa Rica	Quality_of_life
