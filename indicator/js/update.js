@@ -129,17 +129,17 @@ function createChart() {
     parseFloat(Quality_of_life_weight) +
     parseFloat(Health_weight);
 
-  function calculatesort(k) {
+  function calculatesort(d) {
     return (
-      ((Quality_of_opportunities_weight * k.Quality_of_opportunities +
-        Income_weight * k.Income +
-        Future_prospects_weight * k.Future_prospects +
-        Family_environment_weight * k.Family_environment +
-        Skills_environment_weight * k.Skills_environment +
-        Inclusiveness_weight * k.Inclusiveness +
-        Quality_of_life_weight * k.Quality_of_life) *
-        k.Penalty +
-        k.Health * Health_weight) /
+      ((Quality_of_opportunities_weight * d.Quality_of_opportunities +
+        Income_weight * d.Income +
+        Future_prospects_weight * d.Future_prospects +
+        Family_environment_weight * d.Family_environment +
+        Skills_environment_weight * d.Skills_environment +
+        Inclusiveness_weight * d.Inclusiveness +
+        Quality_of_life_weight * d.Quality_of_life) *
+        d.Penalty +
+        d.Health * Health_weight) /
       divisor
     );
   }
@@ -645,17 +645,17 @@ function update() {
     parseFloat(Quality_of_life_weight) +
     parseFloat(Health_weight);
 
-  function calculatesort(k) {
+  function calculatesort(d) {
     return (
-      ((Quality_of_opportunities_weight * k.Quality_of_opportunities +
-        Income_weight * k.Income +
-        Future_prospects_weight * k.Future_prospects +
-        Family_environment_weight * k.Family_environment +
-        Skills_environment_weight * k.Skills_environment +
-        Inclusiveness_weight * k.Inclusiveness +
-        Quality_of_life_weight * k.Quality_of_life) *
-        k.Penalty +
-        k.Health * Health_weight) /
+      ((Quality_of_opportunities_weight * d.Quality_of_opportunities +
+        Income_weight * d.Income +
+        Future_prospects_weight * d.Future_prospects +
+        Family_environment_weight * d.Family_environment +
+        Skills_environment_weight * d.Skills_environment +
+        Inclusiveness_weight * d.Inclusiveness +
+        Quality_of_life_weight * d.Quality_of_life) *
+        d.Penalty +
+        d.Health * Health_weight) /
       divisor
     );
   }
