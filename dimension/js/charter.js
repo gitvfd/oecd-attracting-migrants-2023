@@ -4,6 +4,9 @@ function createChart(dimensionName) {
   if (width > 800) height = 0.7 * window.innerHeight;
   else height = window.innerHeight;
 
+  //////////
+  //legend//
+  //////////
   svg
     .selectAll("legendCircle")
     .data(["Workers", "Entrepreneurs", "Students", "Start-up founders"])
@@ -46,6 +49,9 @@ function createChart(dimensionName) {
     .attr("text-anchor", "start")
     .attr("fill", lollipopText);
 
+  //////////
+  // Wide //
+  //////////
   if (width > 800) {
     svg.attr("width", width).attr("height", height);
 
@@ -53,11 +59,14 @@ function createChart(dimensionName) {
       .scaleBand()
       .domain(
         data
+          .filter(function (d) {
+            return d.Dimension == dimensionName;
+          })
           .map(function (d) {
             return d.Countries;
           })
           .sort(function (a, b) {
-            return parseFloat(a.Countries) - parseFloat(b.Countries);
+            return a.localeCompare(b);
           })
       )
       .range([margin, width - margin / 2])
@@ -113,7 +122,10 @@ function createChart(dimensionName) {
       .enter()
       .append("circle")
       .attr("class", "lollipopCircle")
-      .attr("r", lollipopRadius)
+      .attr("r", function (d) {
+        if (!(d.value === undefined)) return lollipopRadius;
+        else return 0;
+      })
       .attr("cx", function (d) {
         if (!(d.value === undefined))
           return xScale(d.Countries) + xScale.bandwidth() / 2;
@@ -261,7 +273,10 @@ function createChart(dimensionName) {
       .enter()
       .append("circle")
       .attr("class", "lollipopCircle")
-      .attr("r", lollipopRadius)
+      .attr("r", function (d) {
+        if (!(d.value === undefined)) return lollipopColor;
+        else return 0;
+      })
       .attr("cx", function (d) {
         if (!(d.value === undefined)) return xScale(d.value);
       })
@@ -318,13 +333,13 @@ function update(dimensionName) {
       .domain(
         data
           .filter(function (d) {
-            return d.Dimension == selDimPlaceholder;
-          })
-          .sort(function (a, b) {
-            return parseFloat(a.Countries) - parseFloat(b.Countries);
+            return d.Dimension == dimensionName;
           })
           .map(function (d) {
             return d.Countries;
+          })
+          .sort(function (a, b) {
+            return a.localeCompare(b);
           })
       )
       .range([margin, width - margin / 2])
@@ -396,11 +411,11 @@ function update(dimensionName) {
           .filter(function (d) {
             return d.Dimension == selDimPlaceholder;
           })
-          .sort(function (a, b) {
-            return parseFloat(a.Countries) - parseFloat(b.Countries);
-          })
           .map(function (d) {
             return d.Countries;
+          })
+          .sort(function (a, b) {
+            return parseFloat(a) - parseFloat(b);
           })
       )
       .range([margin, height - margin / 2])
@@ -500,11 +515,11 @@ function sortupdate(topicSelected) {
       .padding(padding);
 
     lollipopsCircle
-      .data(
+      /*.data(
         data.filter(function (d) {
           return d.Dimension == selDimPlaceholder;
         })
-      )
+      )*/
       // .enter()
       .transition()
       .duration(1000)
@@ -518,16 +533,17 @@ function sortupdate(topicSelected) {
       });
 
     lollipopsText
-      .data(
+      /*.data(
         data.filter(function (d) {
           return d.Dimension == selDimPlaceholder;
         })
-      )
+      )*/
       .transition()
       .duration(1000)
       .ease(d3.easeBounce)
       .attr("dy", function (d) {
-        return xScale(d.Countries) + xScale.bandwidth() / 2;
+        if (!(d.value === undefined))
+          return xScale(d.Countries) + xScale.bandwidth() / 2;
       })
       .attr("dx", function (d) {
         //return -yScale(d.value)
@@ -535,24 +551,22 @@ function sortupdate(topicSelected) {
       });
 
     lollipopsLine
-      .data(
+      /*.data(
         data.filter(function (d) {
           return d.Dimension == selDimPlaceholder;
         })
-      )
+      )*/
       .transition()
       .duration(1000)
       .ease(d3.easeBounce)
       .attr("x1", function (d) {
-        if (!(d.value === undefined))
-          return xScale(d.Countries) + xScale.bandwidth() / 2;
+        return xScale(d.Countries) + xScale.bandwidth() / 2;
       })
       .attr("y1", function (d) {
-        if (!(d.value === undefined)) return yScale(0);
+        return yScale(0);
       })
       .attr("x2", function (d) {
-        if (!(d.value === undefined))
-          return xScale(d.Countries) + xScale.bandwidth() / 2;
+        return xScale(d.Countries) + xScale.bandwidth() / 2;
       })
       .attr("y2", function (d) {
         if (!(d.value === undefined)) return yScale(d.value);
@@ -577,11 +591,11 @@ function sortupdate(topicSelected) {
       .padding(padding);
 
     lollipopsCircle
-      .data(
+      /*.data(
         data.filter(function (d) {
           return d.Dimension == selDimPlaceholder;
         })
-      )
+      )*/
       // .enter()
       .transition()
       .duration(1500)
@@ -595,11 +609,11 @@ function sortupdate(topicSelected) {
       });
 
     lollipopsText
-      .data(
+      /*.data(
         data.filter(function (d) {
           return d.Dimension == selDimPlaceholder;
         })
-      )
+      )*/
       .transition()
       .duration(1500)
       .ease(d3.easeBounce)
@@ -612,28 +626,26 @@ function sortupdate(topicSelected) {
       });
 
     lollipopsLine
-      .data(
+      /* .data(
         data.filter(function (d) {
           return d.Dimension == selDimPlaceholder;
         })
-      )
+      )*/
       .transition()
       .duration(1500)
       .ease(d3.easeBounce)
       .attr("x1", function (d) {
-        if (!(d.value === undefined)) return xScale(0);
+        return xScale(0);
       })
       .attr("x2", function (d) {
         if (!(d.value === undefined)) return xScale(d.value);
         else return xScale(0);
       })
       .attr("y1", function (d) {
-        if (!(d.value === undefined))
-          return yScale(d.Countries) + yScale.bandwidth() / 2;
+        return yScale(d.Countries) + yScale.bandwidth() / 2;
       })
       .attr("y2", function (d) {
-        if (!(d.value === undefined))
-          return yScale(d.Countries) + yScale.bandwidth() / 2;
+        return yScale(d.Countries) + yScale.bandwidth() / 2;
       });
   }
 }

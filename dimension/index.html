@@ -164,13 +164,15 @@
     d3.selectAll(".btn").on("click", function (d) {
       //console.log(this.id)
       if (this.id == "Quality_of_opportunities_Desc")
-        update("Quality_of_opportunities");
-      if (this.id == "Income_Desc") update("Income");
-      if (this.id == "Future_prospects_Desc") update("Future_prospects");
-      if (this.id == "Family_environment_Desc") update("Family_environment");
-      if (this.id == "Skills_environment_Desc") update("Skills_environment");
-      if (this.id == "Inclusiveness_Desc") update("Inclusiveness");
-      if (this.id == "Quality_of_life_Desc") update("Quality_of_life");
+        createChart("Quality_of_opportunities");
+      if (this.id == "Income_Desc") createChart("Income");
+      if (this.id == "Future_prospects_Desc") createChart("Future_prospects");
+      if (this.id == "Family_environment_Desc")
+        createChart("Family_environment");
+      if (this.id == "Skills_environment_Desc")
+        createChart("Skills_environment");
+      if (this.id == "Inclusiveness_Desc") createChart("Inclusiveness");
+      if (this.id == "Quality_of_life_Desc") createChart("Quality_of_life");
     });
 
     var tooltip = d3

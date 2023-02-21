@@ -1,18 +1,4 @@
 Cat	Countries	Dimension	value
-Start-up founders	Costa Rica	Quality_of_opportunities
-Start-up founders	Costa Rica	Income
-Start-up founders	Costa Rica	Future_prospects
-Start-up founders	Costa Rica	Family_environment
-Start-up founders	Costa Rica	Skills_environment
-Start-up founders	Costa Rica	Inclusiveness
-Start-up founders	Costa Rica	Quality_of_life
-Students	Costa Rica	Quality_of_opportunities
-Students	Costa Rica	Income
-Students	Costa Rica	Future_prospects
-Students	Costa Rica	Family_environment
-Students	Costa Rica	Skills_environment
-Students	Costa Rica	Inclusiveness
-Students	Costa Rica	Quality_of_life
 Workers	Australia	Quality_of_opportunities	0.727
 Workers	Austria	Quality_of_opportunities	0.571
 Workers	Belgium	Quality_of_opportunities	0.690
@@ -1063,3 +1049,17 @@ Start-up founders	Norway	Quality_of_life
 Start-up founders	Slovak Republic	Quality_of_life
 Start-up founders	Slovenia	Quality_of_life
 Start-up founders	Turkey	Quality_of_life
+Start-up founders	Costa Rica	Quality_of_opportunities
+Start-up founders	Costa Rica	Income
+Start-up founders	Costa Rica	Future_prospects
+Start-up founders	Costa Rica	Family_environment
+Start-up founders	Costa Rica	Skills_environment
+Start-up founders	Costa Rica	Inclusiveness
+Start-up founders	Costa Rica	Quality_of_life
+Students	Costa Rica	Quality_of_opportunities
+Students	Costa Rica	Income
+Students	Costa Rica	Future_prospects
+Students	Costa Rica	Family_environment
+Students	Costa Rica	Skills_environment
+Students	Costa Rica	Inclusiveness
+Students	Costa Rica	Quality_of_life
