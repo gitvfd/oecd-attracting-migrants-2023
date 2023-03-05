@@ -24,12 +24,12 @@ function createChart() {
       "Quality_of_opportunities_radio_3"
     ).value;
   }
-  console.log(Quality_of_opportunities_weight);
+
   var Income_weight;
   if (document.getElementById("Income_radio_1").checked) {
     Income_weight = document.getElementById("Income_radio_1").value;
   } else if (document.getElementById("Income_radio_2").checked) {
-    Income_weight = document.getElementById("Income_radio_3").value;
+    Income_weight = document.getElementById("Income_radio_2").value;
   } else if (document.getElementById("Income_radio_3").checked) {
     Income_weight = document.getElementById("Income_radio_3").value;
   }
@@ -223,6 +223,13 @@ function createChart() {
         console.log(d);
         console.log(parseFloat(divisor));
 
+        console.log(Quality_of_opportunities_weight);
+        console.log(Income_weight);
+        console.log(Future_prospects_weight);
+        console.log(Family_environment_weight);
+        console.log(Skills_environment_weight);
+        console.log(Inclusiveness_weight);
+        console.log(Quality_of_life_weight);
         var test =
           ((parseFloat(Quality_of_opportunities_weight) *
             parseFloat(d.Quality_of_opportunities) +
@@ -601,7 +608,7 @@ function update() {
   if (document.getElementById("Income_radio_1").checked) {
     Income_weight = document.getElementById("Income_radio_1").value;
   } else if (document.getElementById("Income_radio_2").checked) {
-    Income_weight = document.getElementById("Income_radio_3").value;
+    Income_weight = document.getElementById("Income_radio_2").value;
   } else if (document.getElementById("Income_radio_3").checked) {
     Income_weight = document.getElementById("Income_radio_3").value;
   }
