@@ -35,7 +35,7 @@ Workers	Portugal	Quality_of_opportunities	0.745
 Workers	Slovak Republic	Quality_of_opportunities	0.894
 Workers	Slovenia	Quality_of_opportunities	0.777
 Workers	Sweden	Quality_of_opportunities	0.701
-Workers	Turkey	Quality_of_opportunities	0.680
+Workers	Türkiye	Quality_of_opportunities	0.680
 Workers	United States	Quality_of_opportunities	0.823
 Entrepreneurs	Australia	Quality_of_opportunities	0.379
 Entrepreneurs	Austria	Quality_of_opportunities	0.397
@@ -73,7 +73,7 @@ Entrepreneurs	Portugal	Quality_of_opportunities	0.314
 Entrepreneurs	Slovak Republic	Quality_of_opportunities	0.396
 Entrepreneurs	Slovenia	Quality_of_opportunities	0.380
 Entrepreneurs	Sweden	Quality_of_opportunities	0.355
-Entrepreneurs	Turkey	Quality_of_opportunities	0.445
+Entrepreneurs	Türkiye	Quality_of_opportunities	0.445
 Entrepreneurs	United States	Quality_of_opportunities	0.579
 Students	Australia	Quality_of_opportunities	0.189
 Students	Austria	Quality_of_opportunities	0.047
@@ -110,7 +110,7 @@ Students	Portugal	Quality_of_opportunities	0.031
 Students	Slovak Republic	Quality_of_opportunities	0.000
 Students	Slovenia	Quality_of_opportunities	0.008
 Students	Sweden	Quality_of_opportunities	0.079
-Students	Turkey	Quality_of_opportunities	0.008
+Students	Türkiye	Quality_of_opportunities	0.008
 Students	United States	Quality_of_opportunities	1.000
 Start-up founders	Australia	Quality_of_opportunities	0.170
 Start-up founders	Austria	Quality_of_opportunities	0.223
@@ -172,7 +172,7 @@ Workers	Portugal	Income	0.358
 Workers	Slovak Republic	Income	0.324
 Workers	Slovenia	Income	0.362
 Workers	Sweden	Income	0.356
-Workers	Turkey	Income	0.429
+Workers	Türkiye	Income	0.429
 Workers	United States	Income	0.490
 Entrepreneurs	Australia	Income	0.336
 Entrepreneurs	Austria	Income	0.393
@@ -210,7 +210,7 @@ Entrepreneurs	Portugal	Income	0.254
 Entrepreneurs	Slovak Republic	Income	0.383
 Entrepreneurs	Slovenia	Income	0.469
 Entrepreneurs	Sweden	Income	0.405
-Entrepreneurs	Turkey	Income	0.429
+Entrepreneurs	Türkiye	Income	0.429
 Entrepreneurs	United States	Income	0.502
 Students	Australia	Income	0.425
 Students	Austria	Income	0.312
@@ -247,7 +247,7 @@ Students	Portugal	Income	0.547
 Students	Slovak Republic	Income	0.543
 Students	Slovenia	Income	0.466
 Students	Sweden	Income	0.417
-Students	Turkey	Income	0.696
+Students	Türkiye	Income	0.696
 Students	United States	Income	0.381
 Start-up founders	Australia	Income	0.171
 Start-up founders	Austria	Income	0.283
@@ -309,7 +309,7 @@ Workers	Portugal	Future_prospects	0.775
 Workers	Slovak Republic	Future_prospects	0.687
 Workers	Slovenia	Future_prospects	0.677
 Workers	Sweden	Future_prospects	0.634
-Workers	Turkey	Future_prospects	0.156
+Workers	Türkiye	Future_prospects	0.156
 Workers	United States	Future_prospects	0.635
 Entrepreneurs	Australia	Future_prospects	0.676
 Entrepreneurs	Austria	Future_prospects	0.552
@@ -347,7 +347,7 @@ Entrepreneurs	Portugal	Future_prospects	0.775
 Entrepreneurs	Slovak Republic	Future_prospects	0.687
 Entrepreneurs	Slovenia	Future_prospects	0.677
 Entrepreneurs	Sweden	Future_prospects	0.745
-Entrepreneurs	Turkey	Future_prospects	0.156
+Entrepreneurs	Türkiye	Future_prospects	0.156
 Entrepreneurs	United States	Future_prospects	0.524
 Students	Australia	Future_prospects	0.757
 Students	Austria	Future_prospects	0.664
@@ -384,7 +384,7 @@ Students	Portugal	Future_prospects	0.841
 Students	Slovak Republic	Future_prospects	0.724
 Students	Slovenia	Future_prospects	0.716
 Students	Sweden	Future_prospects	0.803
-Students	Turkey	Future_prospects	0.450
+Students	Türkiye	Future_prospects	0.450
 Students	United States	Future_prospects	0.643
 Start-up founders	Australia	Future_prospects	0.702
 Start-up founders	Austria	Future_prospects	0.405
@@ -446,7 +446,7 @@ Workers	Portugal	Family_environment	0.651
 Workers	Slovak Republic	Family_environment	0.671
 Workers	Slovenia	Family_environment	0.631
 Workers	Sweden	Family_environment	0.679
-Workers	Turkey	Family_environment	0.444
+Workers	Türkiye	Family_environment	0.444
 Workers	United States	Family_environment	0.653
 Entrepreneurs	Australia	Family_environment	0.676
 Entrepreneurs	Austria	Family_environment	0.729
@@ -484,7 +484,7 @@ Entrepreneurs	Portugal	Family_environment	0.651
 Entrepreneurs	Slovak Republic	Family_environment	0.671
 Entrepreneurs	Slovenia	Family_environment	0.631
 Entrepreneurs	Sweden	Family_environment	0.679
-Entrepreneurs	Turkey	Family_environment	0.444
+Entrepreneurs	Türkiye	Family_environment	0.444
 Entrepreneurs	United States	Family_environment	0.736
 Students	Australia	Family_environment	0.592
 Students	Austria	Family_environment	0.646
@@ -521,7 +521,7 @@ Students	Portugal	Family_environment	0.567
 Students	Slovak Republic	Family_environment	0.504
 Students	Slovenia	Family_environment	0.464
 Students	Sweden	Family_environment	0.513
-Students	Turkey	Family_environment	0.194
+Students	Türkiye	Family_environment	0.194
 Students	United States	Family_environment	0.569
 Start-up founders	Australia	Family_environment	0.619
 Start-up founders	Austria	Family_environment	0.646
@@ -583,7 +583,7 @@ Workers	Portugal	Skills_environment	0.509
 Workers	Slovak Republic	Skills_environment	0.335
 Workers	Slovenia	Skills_environment	0.399
 Workers	Sweden	Skills_environment	0.623
-Workers	Turkey	Skills_environment	0.162
+Workers	Türkiye	Skills_environment	0.162
 Workers	United States	Skills_environment	0.634
 Entrepreneurs	Australia	Skills_environment	0.432
 Entrepreneurs	Austria	Skills_environment	0.367
@@ -621,7 +621,7 @@ Entrepreneurs	Portugal	Skills_environment	0.509
 Entrepreneurs	Slovak Republic	Skills_environment	0.335
 Entrepreneurs	Slovenia	Skills_environment	0.399
 Entrepreneurs	Sweden	Skills_environment	0.623
-Entrepreneurs	Turkey	Skills_environment	0.162
+Entrepreneurs	Türkiye	Skills_environment	0.162
 Entrepreneurs	United States	Skills_environment	0.634
 Students	Australia	Skills_environment	0.628
 Students	Austria	Skills_environment	0.456
@@ -658,7 +658,7 @@ Students	Portugal	Skills_environment	0.648
 Students	Slovak Republic	Skills_environment	0.442
 Students	Slovenia	Skills_environment	0.475
 Students	Sweden	Skills_environment	0.738
-Students	Turkey	Skills_environment	0.293
+Students	Türkiye	Skills_environment	0.293
 Students	United States	Skills_environment	0.711
 Start-up founders	Australia	Skills_environment	0.414
 Start-up founders	Austria	Skills_environment	0.398
@@ -720,7 +720,7 @@ Workers	Portugal	Inclusiveness	0.544
 Workers	Slovak Republic	Inclusiveness	0.231
 Workers	Slovenia	Inclusiveness	0.341
 Workers	Sweden	Inclusiveness	0.685
-Workers	Turkey	Inclusiveness	0.208
+Workers	Türkiye	Inclusiveness	0.208
 Workers	United States	Inclusiveness	0.588
 Entrepreneurs	Australia	Inclusiveness	0.711
 Entrepreneurs	Austria	Inclusiveness	0.545
@@ -758,7 +758,7 @@ Entrepreneurs	Portugal	Inclusiveness	0.539
 Entrepreneurs	Slovak Republic	Inclusiveness	0.232
 Entrepreneurs	Slovenia	Inclusiveness	0.370
 Entrepreneurs	Sweden	Inclusiveness	0.679
-Entrepreneurs	Turkey	Inclusiveness	0.207
+Entrepreneurs	Türkiye	Inclusiveness	0.207
 Entrepreneurs	United States	Inclusiveness	0.597
 Students	Australia	Inclusiveness	0.730
 Students	Austria	Inclusiveness	0.537
@@ -795,7 +795,7 @@ Students	Portugal	Inclusiveness	0.552
 Students	Slovak Republic	Inclusiveness	0.290
 Students	Slovenia	Inclusiveness	0.362
 Students	Sweden	Inclusiveness	0.606
-Students	Turkey	Inclusiveness	0.209
+Students	Türkiye	Inclusiveness	0.209
 Students	United States	Inclusiveness	0.531
 Start-up founders	Australia	Inclusiveness	0.619
 Start-up founders	Austria	Inclusiveness	0.493
@@ -857,7 +857,7 @@ Workers	Portugal	Quality_of_life	0.548
 Workers	Slovak Republic	Quality_of_life	0.535
 Workers	Slovenia	Quality_of_life	0.662
 Workers	Sweden	Quality_of_life	0.771
-Workers	Turkey	Quality_of_life	0.352
+Workers	Türkiye	Quality_of_life	0.352
 Workers	United States	Quality_of_life	0.764
 Entrepreneurs	Australia	Quality_of_life	0.779
 Entrepreneurs	Austria	Quality_of_life	0.678
@@ -895,7 +895,7 @@ Entrepreneurs	Portugal	Quality_of_life	0.548
 Entrepreneurs	Slovak Republic	Quality_of_life	0.535
 Entrepreneurs	Slovenia	Quality_of_life	0.662
 Entrepreneurs	Sweden	Quality_of_life	0.771
-Entrepreneurs	Turkey	Quality_of_life	0.352
+Entrepreneurs	Türkiye	Quality_of_life	0.352
 Entrepreneurs	United States	Quality_of_life	0.764
 Students	Australia	Quality_of_life	0.779
 Students	Austria	Quality_of_life	0.678
@@ -932,7 +932,7 @@ Students	Portugal	Quality_of_life	0.548
 Students	Slovak Republic	Quality_of_life	0.535
 Students	Slovenia	Quality_of_life	0.662
 Students	Sweden	Quality_of_life	0.771
-Students	Turkey	Quality_of_life	0.352
+Students	Türkiye	Quality_of_life	0.352
 Students	United States	Quality_of_life	0.764
 Start-up founders	Australia	Quality_of_life	0.746
 Start-up founders	Austria	Quality_of_life	0.635
@@ -970,7 +970,7 @@ Start-up founders	Mexico	Quality_of_opportunities
 Start-up founders	Norway	Quality_of_opportunities
 Start-up founders	Slovak Republic	Quality_of_opportunities
 Start-up founders	Slovenia	Quality_of_opportunities
-Start-up founders	Turkey	Quality_of_opportunities
+Start-up founders	Türkiye	Quality_of_opportunities
 Start-up founders	Belgium	Income
 Start-up founders	Switzerland	Income
 Start-up founders	Colombia	Income
@@ -983,7 +983,7 @@ Start-up founders	Mexico	Income
 Start-up founders	Norway	Income
 Start-up founders	Slovak Republic	Income
 Start-up founders	Slovenia	Income
-Start-up founders	Turkey	Income
+Start-up founders	Türkiye	Income
 Start-up founders	Belgium	Future_prospects
 Start-up founders	Switzerland	Future_prospects
 Start-up founders	Colombia	Future_prospects
@@ -996,7 +996,7 @@ Start-up founders	Mexico	Future_prospects
 Start-up founders	Norway	Future_prospects
 Start-up founders	Slovak Republic	Future_prospects
 Start-up founders	Slovenia	Future_prospects
-Start-up founders	Turkey	Future_prospects
+Start-up founders	Türkiye	Future_prospects
 Start-up founders	Belgium	Family_environment
 Start-up founders	Switzerland	Family_environment
 Start-up founders	Colombia	Family_environment
@@ -1009,7 +1009,7 @@ Start-up founders	Mexico	Family_environment
 Start-up founders	Norway	Family_environment
 Start-up founders	Slovak Republic	Family_environment
 Start-up founders	Slovenia	Family_environment
-Start-up founders	Turkey	Family_environment
+Start-up founders	Türkiye	Family_environment
 Start-up founders	Belgium	Skills_environment
 Start-up founders	Switzerland	Skills_environment
 Start-up founders	Colombia	Skills_environment
@@ -1022,7 +1022,7 @@ Start-up founders	Mexico	Skills_environment
 Start-up founders	Norway	Skills_environment
 Start-up founders	Slovak Republic	Skills_environment
 Start-up founders	Slovenia	Skills_environment
-Start-up founders	Turkey	Skills_environment
+Start-up founders	Türkiye	Skills_environment
 Start-up founders	Belgium	Inclusiveness
 Start-up founders	Switzerland	Inclusiveness
 Start-up founders	Colombia	Inclusiveness
@@ -1035,7 +1035,7 @@ Start-up founders	Mexico	Inclusiveness
 Start-up founders	Norway	Inclusiveness
 Start-up founders	Slovak Republic	Inclusiveness
 Start-up founders	Slovenia	Inclusiveness
-Start-up founders	Turkey	Inclusiveness
+Start-up founders	Türkiye	Inclusiveness
 Start-up founders	Belgium	Quality_of_life
 Start-up founders	Switzerland	Quality_of_life
 Start-up founders	Colombia	Quality_of_life
@@ -1048,7 +1048,7 @@ Start-up founders	Mexico	Quality_of_life
 Start-up founders	Norway	Quality_of_life
 Start-up founders	Slovak Republic	Quality_of_life
 Start-up founders	Slovenia	Quality_of_life
-Start-up founders	Turkey	Quality_of_life
+Start-up founders	Türkiye	Quality_of_life
 Start-up founders	Costa Rica	Quality_of_opportunities
 Start-up founders	Costa Rica	Income
 Start-up founders	Costa Rica	Future_prospects

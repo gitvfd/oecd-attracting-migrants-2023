@@ -5,6 +5,7 @@ function createChart() {
     document.getElementById("ctrSel").options[
       document.getElementById("ctrSel").selectedIndex
     ].value;
+
   var Quality_of_opportunities_weight;
   if (document.getElementById("Quality_of_opportunities_radio_1").checked) {
     Quality_of_opportunities_weight = document.getElementById(
@@ -23,7 +24,7 @@ function createChart() {
       "Quality_of_opportunities_radio_3"
     ).value;
   }
-
+  console.log(Quality_of_opportunities_weight);
   var Income_weight;
   if (document.getElementById("Income_radio_1").checked) {
     Income_weight = document.getElementById("Income_radio_1").value;
@@ -130,17 +131,20 @@ function createChart() {
     parseFloat(Health_weight);
 
   function calculatesort(d) {
-    return (
-      ((Quality_of_opportunities_weight * d.Quality_of_opportunities +
-        Income_weight * d.Income +
-        Future_prospects_weight * d.Future_prospects +
-        Family_environment_weight * d.Family_environment +
-        Skills_environment_weight * d.Skills_environment +
-        Inclusiveness_weight * d.Inclusiveness +
-        Quality_of_life_weight * d.Quality_of_life) *
-        d.Penalty +
-        d.Health * Health_weight) /
-      divisor
+    return parseFloat(
+      ((parseFloat(Quality_of_opportunities_weight) *
+        parseFloat(d.Quality_of_opportunities) +
+        parseFloat(Income_weight) * parseFloat(d.Income) +
+        parseFloat(Future_prospects_weight) * parseFloat(d.Future_prospects) +
+        parseFloat(Family_environment_weight) *
+          parseFloat(d.Family_environment) +
+        parseFloat(Skills_environment_weight) *
+          parseFloat(d.Skills_environment) +
+        parseFloat(Inclusiveness_weight) * parseFloat(d.Inclusiveness) +
+        parseFloat(Quality_of_life_weight) * parseFloat(d.Quality_of_life)) *
+        parseFloat(d.Penalty) +
+        parseFloat(d.Health) * parseFloat(Health_weight)) /
+        parseFloat(divisor)
     );
   }
 
@@ -216,17 +220,45 @@ function createChart() {
         return xScale(d.Countries) + xScale.bandwidth() / 2;
       })
       .attr("cy", function (d) {
+        console.log(d);
+        console.log(parseFloat(divisor));
+
+        var test =
+          ((parseFloat(Quality_of_opportunities_weight) *
+            parseFloat(d.Quality_of_opportunities) +
+            parseFloat(Income_weight) * parseFloat(d.Income) +
+            parseFloat(Future_prospects_weight) *
+              parseFloat(d.Future_prospects) +
+            parseFloat(Family_environment_weight) *
+              parseFloat(d.Family_environment) +
+            parseFloat(Skills_environment_weight) *
+              parseFloat(d.Skills_environment) +
+            parseFloat(Inclusiveness_weight) * parseFloat(d.Inclusiveness) +
+            parseFloat(Quality_of_life_weight) *
+              parseFloat(d.Quality_of_life)) *
+            parseFloat(d.Penalty) +
+            parseFloat(d.Health) * parseFloat(Health_weight)) /
+          parseFloat(divisor);
+        console.log(test);
+
         return yScale(
-          ((Quality_of_opportunities_weight * d.Quality_of_opportunities +
-            Income_weight * d.Income +
-            Future_prospects_weight * d.Future_prospects +
-            Family_environment_weight * d.Family_environment +
-            Skills_environment_weight * d.Skills_environment +
-            Inclusiveness_weight * d.Inclusiveness +
-            Quality_of_life_weight * d.Quality_of_life) *
-            d.Penalty +
-            d.Health * Health_weight) /
-            divisor
+          parseFloat(
+            ((parseFloat(Quality_of_opportunities_weight) *
+              parseFloat(d.Quality_of_opportunities) +
+              parseFloat(Income_weight) * parseFloat(d.Income) +
+              parseFloat(Future_prospects_weight) *
+                parseFloat(d.Future_prospects) +
+              parseFloat(Family_environment_weight) *
+                parseFloat(d.Family_environment) +
+              parseFloat(Skills_environment_weight) *
+                parseFloat(d.Skills_environment) +
+              parseFloat(Inclusiveness_weight) * parseFloat(d.Inclusiveness) +
+              parseFloat(Quality_of_life_weight) *
+                parseFloat(d.Quality_of_life)) *
+              parseFloat(d.Penalty) +
+              parseFloat(d.Health) * parseFloat(Health_weight)) /
+              parseFloat(divisor)
+          )
         );
       })
       .attr("fill", lollipopColor);
@@ -254,16 +286,21 @@ function createChart() {
       })
       .attr("dx", function (d) {
         return -yScale(
-          ((Quality_of_opportunities_weight * d.Quality_of_opportunities +
-            Income_weight * d.Income +
-            Future_prospects_weight * d.Future_prospects +
-            Family_environment_weight * d.Family_environment +
-            Skills_environment_weight * d.Skills_environment +
-            Inclusiveness_weight * d.Inclusiveness +
-            Quality_of_life_weight * d.Quality_of_life) *
-            d.Penalty +
-            d.Health * Health_weight) /
-            divisor
+          ((parseFloat(Quality_of_opportunities_weight) *
+            parseFloat(d.Quality_of_opportunities) +
+            parseFloat(Income_weight) * parseFloat(d.Income) +
+            parseFloat(Future_prospects_weight) *
+              parseFloat(d.Future_prospects) +
+            parseFloat(Family_environment_weight) *
+              parseFloat(d.Family_environment) +
+            parseFloat(Skills_environment_weight) *
+              parseFloat(d.Skills_environment) +
+            parseFloat(Inclusiveness_weight) * parseFloat(d.Inclusiveness) +
+            parseFloat(Quality_of_life_weight) *
+              parseFloat(d.Quality_of_life)) *
+            parseFloat(d.Penalty) +
+            parseFloat(d.Health) * parseFloat(Health_weight)) /
+            parseFloat(divisor)
         );
       })
       .text(function (d) {
@@ -299,16 +336,21 @@ function createChart() {
       })
       .attr("y2", function (d) {
         return yScale(
-          ((Quality_of_opportunities_weight * d.Quality_of_opportunities +
-            Income_weight * d.Income +
-            Future_prospects_weight * d.Future_prospects +
-            Family_environment_weight * d.Family_environment +
-            Skills_environment_weight * d.Skills_environment +
-            Inclusiveness_weight * d.Inclusiveness +
-            Quality_of_life_weight * d.Quality_of_life) *
-            d.Penalty +
-            d.Health * Health_weight) /
-            divisor
+          ((parseFloat(Quality_of_opportunities_weight) *
+            parseFloat(d.Quality_of_opportunities) +
+            parseFloat(Income_weight) * parseFloat(d.Income) +
+            parseFloat(Future_prospects_weight) *
+              parseFloat(d.Future_prospects) +
+            parseFloat(Family_environment_weight) *
+              parseFloat(d.Family_environment) +
+            parseFloat(Skills_environment_weight) *
+              parseFloat(d.Skills_environment) +
+            parseFloat(Inclusiveness_weight) * parseFloat(d.Inclusiveness) +
+            parseFloat(Quality_of_life_weight) *
+              parseFloat(d.Quality_of_life)) *
+            parseFloat(d.Penalty) +
+            parseFloat(d.Health) * parseFloat(Health_weight)) /
+            parseFloat(divisor)
         );
       })
       .attr("stroke", lollipopColor)
@@ -398,16 +440,21 @@ function createChart() {
       .attr("r", lollipopRadius)
       .attr("cx", function (d) {
         return xScale(
-          ((Quality_of_opportunities_weight * d.Quality_of_opportunities +
-            Income_weight * d.Income +
-            Future_prospects_weight * d.Future_prospects +
-            Family_environment_weight * d.Family_environment +
-            Skills_environment_weight * d.Skills_environment +
-            Inclusiveness_weight * d.Inclusiveness +
-            Quality_of_life_weight * d.Quality_of_life) *
-            d.Penalty +
-            d.Health * Health_weight) /
-            divisor
+          ((parseFloat(Quality_of_opportunities_weight) *
+            parseFloat(d.Quality_of_opportunities) +
+            parseFloat(Income_weight) * parseFloat(d.Income) +
+            parseFloat(Future_prospects_weight) *
+              parseFloat(d.Future_prospects) +
+            parseFloat(Family_environment_weight) *
+              parseFloat(d.Family_environment) +
+            parseFloat(Skills_environment_weight) *
+              parseFloat(d.Skills_environment) +
+            parseFloat(Inclusiveness_weight) * parseFloat(d.Inclusiveness) +
+            parseFloat(Quality_of_life_weight) *
+              parseFloat(d.Quality_of_life)) *
+            parseFloat(d.Penalty) +
+            parseFloat(d.Health) * parseFloat(Health_weight)) /
+            parseFloat(divisor)
         );
       })
       .attr("cy", function (d) {
@@ -435,16 +482,21 @@ function createChart() {
       .attr("transform", "translate(" + -lollipopRadius + ",-2)rotate(0)")
       .attr("dx", function (d) {
         return xScale(
-          ((Quality_of_opportunities_weight * d.Quality_of_opportunities +
-            Income_weight * d.Income +
-            Future_prospects_weight * d.Future_prospects +
-            Family_environment_weight * d.Family_environment +
-            Skills_environment_weight * d.Skills_environment +
-            Inclusiveness_weight * d.Inclusiveness +
-            Quality_of_life_weight * d.Quality_of_life) *
-            d.Penalty +
-            d.Health * Health_weight) /
-            divisor
+          ((parseFloat(Quality_of_opportunities_weight) *
+            parseFloat(d.Quality_of_opportunities) +
+            parseFloat(Income_weight) * parseFloat(d.Income) +
+            parseFloat(Future_prospects_weight) *
+              parseFloat(d.Future_prospects) +
+            parseFloat(Family_environment_weight) *
+              parseFloat(d.Family_environment) +
+            parseFloat(Skills_environment_weight) *
+              parseFloat(d.Skills_environment) +
+            parseFloat(Inclusiveness_weight) * parseFloat(d.Inclusiveness) +
+            parseFloat(Quality_of_life_weight) *
+              parseFloat(d.Quality_of_life)) *
+            parseFloat(d.Penalty) +
+            parseFloat(d.Health) * parseFloat(Health_weight)) /
+            parseFloat(divisor)
         );
       })
       .attr("dy", function (d) {
@@ -477,16 +529,21 @@ function createChart() {
       })
       .attr("x2", function (d) {
         return xScale(
-          ((Quality_of_opportunities_weight * d.Quality_of_opportunities +
-            Income_weight * d.Income +
-            Future_prospects_weight * d.Future_prospects +
-            Family_environment_weight * d.Family_environment +
-            Skills_environment_weight * d.Skills_environment +
-            Inclusiveness_weight * d.Inclusiveness +
-            Quality_of_life_weight * d.Quality_of_life) *
-            d.Penalty +
-            d.Health * Health_weight) /
-            divisor
+          ((parseFloat(Quality_of_opportunities_weight) *
+            parseFloat(d.Quality_of_opportunities) +
+            parseFloat(Income_weight) * parseFloat(d.Income) +
+            parseFloat(Future_prospects_weight) *
+              parseFloat(d.Future_prospects) +
+            parseFloat(Family_environment_weight) *
+              parseFloat(d.Family_environment) +
+            parseFloat(Skills_environment_weight) *
+              parseFloat(d.Skills_environment) +
+            parseFloat(Inclusiveness_weight) * parseFloat(d.Inclusiveness) +
+            parseFloat(Quality_of_life_weight) *
+              parseFloat(d.Quality_of_life)) *
+            parseFloat(d.Penalty) +
+            parseFloat(d.Health) * parseFloat(Health_weight)) /
+            parseFloat(divisor)
         );
       })
       .attr("y1", function (d) {
@@ -647,16 +704,19 @@ function update() {
 
   function calculatesort(d) {
     return (
-      ((Quality_of_opportunities_weight * d.Quality_of_opportunities +
-        Income_weight * d.Income +
-        Future_prospects_weight * d.Future_prospects +
-        Family_environment_weight * d.Family_environment +
-        Skills_environment_weight * d.Skills_environment +
-        Inclusiveness_weight * d.Inclusiveness +
-        Quality_of_life_weight * d.Quality_of_life) *
-        d.Penalty +
-        d.Health * Health_weight) /
-      divisor
+      ((parseFloat(Quality_of_opportunities_weight) *
+        parseFloat(d.Quality_of_opportunities) +
+        parseFloat(Income_weight) * parseFloat(d.Income) +
+        parseFloat(Future_prospects_weight) * parseFloat(d.Future_prospects) +
+        parseFloat(Family_environment_weight) *
+          parseFloat(d.Family_environment) +
+        parseFloat(Skills_environment_weight) *
+          parseFloat(d.Skills_environment) +
+        parseFloat(Inclusiveness_weight) * parseFloat(d.Inclusiveness) +
+        parseFloat(Quality_of_life_weight) * parseFloat(d.Quality_of_life)) *
+        parseFloat(d.Penalty) +
+        parseFloat(d.Health) * parseFloat(Health_weight)) /
+      parseFloat(divisor)
     );
   }
 
@@ -689,16 +749,21 @@ function update() {
       })
       .attr("cy", function (d) {
         return yScale(
-          ((Quality_of_opportunities_weight * d.Quality_of_opportunities +
-            Income_weight * d.Income +
-            Future_prospects_weight * d.Future_prospects +
-            Family_environment_weight * d.Family_environment +
-            Skills_environment_weight * d.Skills_environment +
-            Inclusiveness_weight * d.Inclusiveness +
-            Quality_of_life_weight * d.Quality_of_life) *
-            d.Penalty +
-            d.Health * Health_weight) /
-            divisor
+          ((parseFloat(Quality_of_opportunities_weight) *
+            parseFloat(d.Quality_of_opportunities) +
+            parseFloat(Income_weight) * parseFloat(d.Income) +
+            parseFloat(Future_prospects_weight) *
+              parseFloat(d.Future_prospects) +
+            parseFloat(Family_environment_weight) *
+              parseFloat(d.Family_environment) +
+            parseFloat(Skills_environment_weight) *
+              parseFloat(d.Skills_environment) +
+            parseFloat(Inclusiveness_weight) * parseFloat(d.Inclusiveness) +
+            parseFloat(Quality_of_life_weight) *
+              parseFloat(d.Quality_of_life)) *
+            parseFloat(d.Penalty) +
+            parseFloat(d.Health) * parseFloat(Health_weight)) /
+            parseFloat(divisor)
         );
       });
 
@@ -713,16 +778,21 @@ function update() {
       .ease(d3.easeBounce)
       .attr("dx", function (d) {
         return -yScale(
-          ((Quality_of_opportunities_weight * d.Quality_of_opportunities +
-            Income_weight * d.Income +
-            Future_prospects_weight * d.Future_prospects +
-            Family_environment_weight * d.Family_environment +
-            Skills_environment_weight * d.Skills_environment +
-            Inclusiveness_weight * d.Inclusiveness +
-            Quality_of_life_weight * d.Quality_of_life) *
-            d.Penalty +
-            d.Health * Health_weight) /
-            divisor
+          ((parseFloat(Quality_of_opportunities_weight) *
+            parseFloat(d.Quality_of_opportunities) +
+            parseFloat(Income_weight) * parseFloat(d.Income) +
+            parseFloat(Future_prospects_weight) *
+              parseFloat(d.Future_prospects) +
+            parseFloat(Family_environment_weight) *
+              parseFloat(d.Family_environment) +
+            parseFloat(Skills_environment_weight) *
+              parseFloat(d.Skills_environment) +
+            parseFloat(Inclusiveness_weight) * parseFloat(d.Inclusiveness) +
+            parseFloat(Quality_of_life_weight) *
+              parseFloat(d.Quality_of_life)) *
+            parseFloat(d.Penalty) +
+            parseFloat(d.Health) * parseFloat(Health_weight)) /
+            parseFloat(divisor)
         );
       })
       .attr("dy", function (d) {
@@ -746,16 +816,21 @@ function update() {
       })
       .attr("y2", function (d) {
         return yScale(
-          ((Quality_of_opportunities_weight * d.Quality_of_opportunities +
-            Income_weight * d.Income +
-            Future_prospects_weight * d.Future_prospects +
-            Family_environment_weight * d.Family_environment +
-            Skills_environment_weight * d.Skills_environment +
-            Inclusiveness_weight * d.Inclusiveness +
-            Quality_of_life_weight * d.Quality_of_life) *
-            d.Penalty +
-            d.Health * Health_weight) /
-            divisor
+          ((parseFloat(Quality_of_opportunities_weight) *
+            parseFloat(d.Quality_of_opportunities) +
+            parseFloat(Income_weight) * parseFloat(d.Income) +
+            parseFloat(Future_prospects_weight) *
+              parseFloat(d.Future_prospects) +
+            parseFloat(Family_environment_weight) *
+              parseFloat(d.Family_environment) +
+            parseFloat(Skills_environment_weight) *
+              parseFloat(d.Skills_environment) +
+            parseFloat(Inclusiveness_weight) * parseFloat(d.Inclusiveness) +
+            parseFloat(Quality_of_life_weight) *
+              parseFloat(d.Quality_of_life)) *
+            parseFloat(d.Penalty) +
+            parseFloat(d.Health) * parseFloat(Health_weight)) /
+            parseFloat(divisor)
         );
       });
   } else {
@@ -784,16 +859,21 @@ function update() {
       .ease(d3.easeBounce)
       .attr("cx", function (d) {
         return xScale(
-          ((Quality_of_opportunities_weight * d.Quality_of_opportunities +
-            Income_weight * d.Income +
-            Future_prospects_weight * d.Future_prospects +
-            Family_environment_weight * d.Family_environment +
-            Skills_environment_weight * d.Skills_environment +
-            Inclusiveness_weight * d.Inclusiveness +
-            Quality_of_life_weight * d.Quality_of_life) *
-            d.Penalty +
-            d.Health * Health_weight) /
-            divisor
+          ((parseFloat(Quality_of_opportunities_weight) *
+            parseFloat(d.Quality_of_opportunities) +
+            parseFloat(Income_weight) * parseFloat(d.Income) +
+            parseFloat(Future_prospects_weight) *
+              parseFloat(d.Future_prospects) +
+            parseFloat(Family_environment_weight) *
+              parseFloat(d.Family_environment) +
+            parseFloat(Skills_environment_weight) *
+              parseFloat(d.Skills_environment) +
+            parseFloat(Inclusiveness_weight) * parseFloat(d.Inclusiveness) +
+            parseFloat(Quality_of_life_weight) *
+              parseFloat(d.Quality_of_life)) *
+            parseFloat(d.Penalty) +
+            parseFloat(d.Health) * parseFloat(Health_weight)) /
+            parseFloat(divisor)
         );
       })
       .attr("cy", function (d) {
@@ -811,16 +891,21 @@ function update() {
       .ease(d3.easeBounce)
       .attr("dx", function (d) {
         return xScale(
-          ((Quality_of_opportunities_weight * d.Quality_of_opportunities +
-            Income_weight * d.Income +
-            Future_prospects_weight * d.Future_prospects +
-            Family_environment_weight * d.Family_environment +
-            Skills_environment_weight * d.Skills_environment +
-            Inclusiveness_weight * d.Inclusiveness +
-            Quality_of_life_weight * d.Quality_of_life) *
-            d.Penalty +
-            d.Health * Health_weight) /
-            divisor
+          ((parseFloat(Quality_of_opportunities_weight) *
+            parseFloat(d.Quality_of_opportunities) +
+            parseFloat(Income_weight) * parseFloat(d.Income) +
+            parseFloat(Future_prospects_weight) *
+              parseFloat(d.Future_prospects) +
+            parseFloat(Family_environment_weight) *
+              parseFloat(d.Family_environment) +
+            parseFloat(Skills_environment_weight) *
+              parseFloat(d.Skills_environment) +
+            parseFloat(Inclusiveness_weight) * parseFloat(d.Inclusiveness) +
+            parseFloat(Quality_of_life_weight) *
+              parseFloat(d.Quality_of_life)) *
+            parseFloat(d.Penalty) +
+            parseFloat(d.Health) * parseFloat(Health_weight)) /
+            parseFloat(divisor)
         );
       })
       .attr("dy", function (d) {
@@ -838,16 +923,21 @@ function update() {
       .ease(d3.easeBounce)
       .attr("x2", function (d) {
         return xScale(
-          ((Quality_of_opportunities_weight * d.Quality_of_opportunities +
-            Income_weight * d.Income +
-            Future_prospects_weight * d.Future_prospects +
-            Family_environment_weight * d.Family_environment +
-            Skills_environment_weight * d.Skills_environment +
-            Inclusiveness_weight * d.Inclusiveness +
-            Quality_of_life_weight * d.Quality_of_life) *
-            d.Penalty +
-            d.Health * Health_weight) /
-            divisor
+          ((parseFloat(Quality_of_opportunities_weight) *
+            parseFloat(d.Quality_of_opportunities) +
+            parseFloat(Income_weight) * parseFloat(d.Income) +
+            parseFloat(Future_prospects_weight) *
+              parseFloat(d.Future_prospects) +
+            parseFloat(Family_environment_weight) *
+              parseFloat(d.Family_environment) +
+            parseFloat(Skills_environment_weight) *
+              parseFloat(d.Skills_environment) +
+            parseFloat(Inclusiveness_weight) * parseFloat(d.Inclusiveness) +
+            parseFloat(Quality_of_life_weight) *
+              parseFloat(d.Quality_of_life)) *
+            parseFloat(d.Penalty) +
+            parseFloat(d.Health) * parseFloat(Health_weight)) /
+            parseFloat(divisor)
         );
       })
       .attr("y1", function (d) {
