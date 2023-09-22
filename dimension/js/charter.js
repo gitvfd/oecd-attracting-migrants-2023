@@ -4,6 +4,22 @@ function createChart(dimensionName) {
   if (width > 800) height = 0.7 * window.innerHeight;
   else height = window.innerHeight;
 
+  if (document.getElementById("WorkersButton").checked) {
+    document.getElementById("WorkersButton").checked = false;
+  } else if (document.getElementById("EntrepreneursButton").checked) {
+    document.getElementById("EntrepreneursButton").checked = false;
+  } else if (document.getElementById("StudentButton").checked) {
+    document.getElementById("StudentButton").checked = false;
+  } else if (document.getElementById("Start-up-foundersButton").checked) {
+    document.getElementById("Start-up-foundersButton").checked = false;
+  }
+  if (dimensionName == "Income")
+    document.getElementById("titleDesc").innerHTML = "Income and tax";
+  else
+    document.getElementById("titleDesc").innerHTML = dimensionName.replace(
+      /_/g,
+      " "
+    );
   //////////
   //legend//
   //////////
@@ -23,7 +39,8 @@ function createChart(dimensionName) {
     })
     .attr("fill", function (d) {
       return dimColor(d);
-    });
+    })
+    .attr("opacity", 0.7);
 
   svg
     .selectAll("legendText")
@@ -123,8 +140,11 @@ function createChart(dimensionName) {
       .append("circle")
       .attr("class", "lollipopCircle")
       .attr("r", function (d) {
-        if (!(d.value === undefined)) return lollipopRadius;
-        else return 0;
+        if (!(d.value === undefined)) {
+          if (d.Cat == "Workers") return 7;
+          if (d.Cat == "Students") return 6;
+          else return lollipopRadius;
+        } else return 0;
       })
       .attr("cx", function (d) {
         if (!(d.value === undefined))
@@ -135,7 +155,8 @@ function createChart(dimensionName) {
       })
       .attr("fill", function (d) {
         if (!(d.value === undefined)) return dimColor(d.Cat);
-      });
+      })
+      .attr("opacity", 0.7);
 
     lollipopsText = svg
       .selectAll("lollipopText")
@@ -306,186 +327,17 @@ function createChart(dimensionName) {
   }
 }
 
-function update(dimensionName) {
-  if (document.getElementById("WorkersButton").checked) {
-    document.getElementById("WorkersButton").checked = false;
-  } else if (document.getElementById("EntrepreneursButton").checked) {
-    document.getElementById("EntrepreneursButton").checked = false;
-  } else if (document.getElementById("StudentButton").checked) {
-    document.getElementById("StudentButton").checked = false;
-  } else if (document.getElementById("Start-up-foundersButton").checked) {
-    document.getElementById("Start-up-foundersButton").checked = false;
-  }
-
-  if (dimensionName == "Income")
-    document.getElementById("titleDesc").innerHTML = "Income and tax";
-  else
-    document.getElementById("titleDesc").innerHTML = dimensionName.replace(
-      /_/g,
-      " "
-    );
-
-  selDimPlaceholder = dimensionName;
-
-  if (width > 800) {
-    xScale = d3
-      .scaleBand()
-      .domain(
-        data
-          .filter(function (d) {
-            return d.Dimension == dimensionName;
-          })
-          .map(function (d) {
-            return d.Countries;
-          })
-          .sort(function (a, b) {
-            return a.localeCompare(b);
-          })
-      )
-      .range([margin, width - margin / 2])
-      .padding(padding);
-
-    lollipopsCircle
-      .data(
-        data.filter(function (d) {
-          return d.Dimension == dimensionName;
-        })
-      )
-      // .enter()
-      .transition()
-      .duration(1000)
-      .ease(d3.easeBounce)
-      .attr("cx", function (d) {
-        if (!(d.value === undefined))
-          return xScale(d.Countries) + xScale.bandwidth() / 2;
-      })
-      .attr("cy", function (d) {
-        if (!(d.value === undefined)) return yScale(d.value);
-      });
-
-    lollipopsText
-      .data(
-        data.filter(function (d) {
-          return d.Dimension == dimensionName;
-        })
-      )
-      .transition()
-      .duration(1000)
-      .ease(d3.easeBounce)
-      .attr("dy", function (d) {
-        return xScale(d.Countries) + xScale.bandwidth() / 2;
-      })
-      .attr("dx", function (d) {
-        //return -yScale(d.value)
-        return -yScale(0);
-      });
-
-    lollipopsLine
-      .data(
-        data.filter(function (d) {
-          return d.Dimension == dimensionName;
-        })
-      )
-      .transition()
-      .duration(1000)
-      .ease(d3.easeBounce)
-      .attr("x1", function (d) {
-        if (!(d.value === undefined))
-          return xScale(d.Countries) + xScale.bandwidth() / 2;
-      })
-      .attr("y1", function (d) {
-        if (!(d.value === undefined)) return yScale(0);
-      })
-      .attr("x2", function (d) {
-        if (!(d.value === undefined))
-          return xScale(d.Countries) + xScale.bandwidth() / 2;
-      })
-      .attr("y2", function (d) {
-        if (!(d.value === undefined)) return yScale(d.value);
-      });
-  } else {
-    yScale = d3
-      .scaleBand()
-      .domain(
-        data
-          .filter(function (d) {
-            return d.Dimension == selDimPlaceholder;
-          })
-          .map(function (d) {
-            return d.Countries;
-          })
-          .sort(function (a, b) {
-            return parseFloat(a) - parseFloat(b);
-          })
-      )
-      .range([margin, height - margin / 2])
-      .padding(padding);
-
-    lollipopsCircle
-      .data(
-        data.filter(function (d) {
-          return d.Dimension == dimensionName;
-        })
-      )
-      // .enter()
-      .transition()
-      .duration(1500)
-      .ease(d3.easeBounce)
-      .attr("cx", function (d) {
-        if (!(d.value === undefined)) return xScale(d.value);
-      })
-      .attr("cy", function (d) {
-        if (!(d.value === undefined))
-          return yScale(d.Countries) + yScale.bandwidth() / 2;
-      });
-
-    lollipopsText
-      .data(
-        data.filter(function (d) {
-          return d.Dimension == dimensionName;
-        })
-      )
-      .transition()
-      .duration(1500)
-      .ease(d3.easeBounce)
-      .attr("transform", "translate(" + -lollipopRadius + ",-2)rotate(0)")
-      .attr("dx", function (d) {
-        return xScale(0);
-      })
-      .attr("dy", function (d) {
-        return yScale(d.Countries) + yScale.bandwidth() / 2;
-      });
-
-    lollipopsLine
-      .data(
-        data.filter(function (d) {
-          return d.Dimension == dimensionName;
-        })
-      )
-      .transition()
-      .duration(1500)
-      .ease(d3.easeBounce)
-      .attr("x1", function (d) {
-        if (!(d.value === undefined)) return xScale(0);
-      })
-      .attr("x2", function (d) {
-        if (!(d.value === undefined)) return xScale(d.value);
-        else return xScale(0);
-      })
-      .attr("y1", function (d) {
-        if (!(d.value === undefined))
-          return yScale(d.Countries) + yScale.bandwidth() / 2;
-      })
-      .attr("y2", function (d) {
-        if (!(d.value === undefined))
-          return yScale(d.Countries) + yScale.bandwidth() / 2;
-      });
-  }
-}
-
 function sortupdate(topicSelected) {
   var sortFilter;
 
+  if (document.getElementById("titleDesc").innerHTML == "Income and tax")
+    selDimPlaceholder = "Income";
+  else
+    selDimPlaceholder = document
+      .getElementById("titleDesc")
+      .innerHTML.replace(/ /g, "_");
+
+  console.log(selDimPlaceholder);
   if (document.getElementById("WorkersButton").checked) {
     sortFilter = document.getElementById("WorkersButton").value;
   } else if (document.getElementById("EntrepreneursButton").checked) {

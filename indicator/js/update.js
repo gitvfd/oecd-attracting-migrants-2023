@@ -162,7 +162,7 @@ function createChart() {
             return d.Cat == crtSelected;
           })
           .sort(function (a, b) {
-            return parseFloat(calculatesort(b)) - parseFloat(calculatesort(a));
+            return calculatesort(b) - calculatesort(a);
           })
           .map(function (d) {
             return d.Countries;
@@ -220,16 +220,6 @@ function createChart() {
         return xScale(d.Countries) + xScale.bandwidth() / 2;
       })
       .attr("cy", function (d) {
-        console.log(d);
-        console.log(parseFloat(divisor));
-
-        console.log(Quality_of_opportunities_weight);
-        console.log(Income_weight);
-        console.log(Future_prospects_weight);
-        console.log(Family_environment_weight);
-        console.log(Skills_environment_weight);
-        console.log(Inclusiveness_weight);
-        console.log(Quality_of_life_weight);
         var test =
           ((parseFloat(Quality_of_opportunities_weight) *
             parseFloat(d.Quality_of_opportunities) +
@@ -246,6 +236,7 @@ function createChart() {
             parseFloat(d.Penalty) +
             parseFloat(d.Health) * parseFloat(Health_weight)) /
           parseFloat(divisor);
+        console.log(d);
         console.log(test);
 
         return yScale(
