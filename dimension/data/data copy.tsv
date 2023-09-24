@@ -1,0 +1,1065 @@
+Cat	Countries	Dimension	value
+Workers	Australia	Quality_of_opportunities	0.727
+Workers	Austria	Quality_of_opportunities	0.571
+Workers	Belgium	Quality_of_opportunities	0.690
+Workers	Canada	Quality_of_opportunities	0.767
+Workers	Switzerland	Quality_of_opportunities	0.656
+Workers	Chile	Quality_of_opportunities	0.467
+Workers	Colombia	Quality_of_opportunities	0.567
+Workers	Costa Rica	Quality_of_opportunities	0.212
+Workers	Czech Republic	Quality_of_opportunities	0.865
+Workers	Germany	Quality_of_opportunities	0.645
+Workers	Denmark	Quality_of_opportunities	0.718
+Workers	Spain	Quality_of_opportunities	0.402
+Workers	Estonia	Quality_of_opportunities	0.720
+Workers	Finland	Quality_of_opportunities	0.649
+Workers	France	Quality_of_opportunities	0.676
+Workers	United Kingdom	Quality_of_opportunities	0.779
+Workers	Greece	Quality_of_opportunities	0.426
+Workers	Hungary	Quality_of_opportunities	0.951
+Workers	Ireland	Quality_of_opportunities	0.727
+Workers	Iceland	Quality_of_opportunities	0.604
+Workers	Israel	Quality_of_opportunities	0.663
+Workers	Italy	Quality_of_opportunities	0.484
+Workers	Japan	Quality_of_opportunities	0.526
+Workers	Korea	Quality_of_opportunities	0.413
+Workers	Lithuania	Quality_of_opportunities	0.829
+Workers	Luxembourg	Quality_of_opportunities	0.885
+Workers	Latvia	Quality_of_opportunities	0.842
+Workers	Mexico	Quality_of_opportunities	0.598
+Workers	Netherlands	Quality_of_opportunities	0.517
+Workers	Norway	Quality_of_opportunities	0.676
+Workers	New Zealand	Quality_of_opportunities	0.814
+Workers	Poland	Quality_of_opportunities	0.732
+Workers	Portugal	Quality_of_opportunities	0.745
+Workers	Slovak Republic	Quality_of_opportunities	0.894
+Workers	Slovenia	Quality_of_opportunities	0.777
+Workers	Sweden	Quality_of_opportunities	0.701
+Workers	Türkiye	Quality_of_opportunities	0.680
+Workers	United States	Quality_of_opportunities	0.823
+Entrepreneurs	Australia	Quality_of_opportunities	0.379
+Entrepreneurs	Austria	Quality_of_opportunities	0.397
+Entrepreneurs	Belgium	Quality_of_opportunities	0.356
+Entrepreneurs	Canada	Quality_of_opportunities	0.530
+Entrepreneurs	Switzerland	Quality_of_opportunities	0.417
+Entrepreneurs	Chile	Quality_of_opportunities	0.323
+Entrepreneurs	Colombia	Quality_of_opportunities	0.325
+Entrepreneurs	Costa Rica	Quality_of_opportunities	0.529
+Entrepreneurs	Czech Republic	Quality_of_opportunities	0.344
+Entrepreneurs	Germany	Quality_of_opportunities	0.294
+Entrepreneurs	Denmark	Quality_of_opportunities	0.470
+Entrepreneurs	Spain	Quality_of_opportunities	0.303
+Entrepreneurs	Estonia	Quality_of_opportunities	0.464
+Entrepreneurs	Finland	Quality_of_opportunities	0.418
+Entrepreneurs	France	Quality_of_opportunities	0.325
+Entrepreneurs	United Kingdom	Quality_of_opportunities	0.389
+Entrepreneurs	Greece	Quality_of_opportunities	0.244
+Entrepreneurs	Hungary	Quality_of_opportunities	0.389
+Entrepreneurs	Ireland	Quality_of_opportunities	0.551
+Entrepreneurs	Iceland	Quality_of_opportunities	0.399
+Entrepreneurs	Israel	Quality_of_opportunities	0.336
+Entrepreneurs	Italy	Quality_of_opportunities	0.246
+Entrepreneurs	Japan	Quality_of_opportunities	0.371
+Entrepreneurs	Korea	Quality_of_opportunities	0.515
+Entrepreneurs	Lithuania	Quality_of_opportunities	0.449
+Entrepreneurs	Luxembourg	Quality_of_opportunities	0.482
+Entrepreneurs	Latvia	Quality_of_opportunities	0.358
+Entrepreneurs	Mexico	Quality_of_opportunities	0.291
+Entrepreneurs	Netherlands	Quality_of_opportunities	0.253
+Entrepreneurs	Norway	Quality_of_opportunities	0.383
+Entrepreneurs	New Zealand	Quality_of_opportunities	0.535
+Entrepreneurs	Poland	Quality_of_opportunities	0.368
+Entrepreneurs	Portugal	Quality_of_opportunities	0.314
+Entrepreneurs	Slovak Republic	Quality_of_opportunities	0.396
+Entrepreneurs	Slovenia	Quality_of_opportunities	0.380
+Entrepreneurs	Sweden	Quality_of_opportunities	0.355
+Entrepreneurs	Türkiye	Quality_of_opportunities	0.445
+Entrepreneurs	United States	Quality_of_opportunities	0.579
+Students	Australia	Quality_of_opportunities	0.189
+Students	Austria	Quality_of_opportunities	0.047
+Students	Belgium	Quality_of_opportunities	0.055
+Students	Canada	Quality_of_opportunities	0.150
+Students	Switzerland	Quality_of_opportunities	0.055
+Students	Chile	Quality_of_opportunities	0.008
+Students	Colombia	Quality_of_opportunities	0.000
+Students	Czech Republic	Quality_of_opportunities	0.016
+Students	Germany	Quality_of_opportunities	0.244
+Students	Denmark	Quality_of_opportunities	0.039
+Students	Spain	Quality_of_opportunities	0.087
+Students	Estonia	Quality_of_opportunities	0.000
+Students	Finland	Quality_of_opportunities	0.039
+Students	France	Quality_of_opportunities	0.126
+Students	United Kingdom	Quality_of_opportunities	0.299
+Students	Greece	Quality_of_opportunities	0.008
+Students	Hungary	Quality_of_opportunities	0.000
+Students	Ireland	Quality_of_opportunities	0.024
+Students	Iceland	Quality_of_opportunities	0.000
+Students	Israel	Quality_of_opportunities	0.047
+Students	Italy	Quality_of_opportunities	0.134
+Students	Japan	Quality_of_opportunities	0.102
+Students	Korea	Quality_of_opportunities	0.087
+Students	Lithuania	Quality_of_opportunities	0.000
+Students	Luxembourg	Quality_of_opportunities	0.000
+Students	Latvia	Quality_of_opportunities	0.000
+Students	Mexico	Quality_of_opportunities	0.008
+Students	Netherlands	Quality_of_opportunities	0.094
+Students	Norway	Quality_of_opportunities	0.024
+Students	New Zealand	Quality_of_opportunities	0.031
+Students	Poland	Quality_of_opportunities	0.016
+Students	Portugal	Quality_of_opportunities	0.031
+Students	Slovak Republic	Quality_of_opportunities	0.000
+Students	Slovenia	Quality_of_opportunities	0.008
+Students	Sweden	Quality_of_opportunities	0.079
+Students	Türkiye	Quality_of_opportunities	0.008
+Students	United States	Quality_of_opportunities	1.000
+Start-up founders	Australia	Quality_of_opportunities	0.170
+Start-up founders	Austria	Quality_of_opportunities	0.223
+Start-up founders	Canada	Quality_of_opportunities	0.270
+Start-up founders	Chile	Quality_of_opportunities	0.139
+Start-up founders	Germany	Quality_of_opportunities	0.150
+Start-up founders	Denmark	Quality_of_opportunities	0.135
+Start-up founders	Spain	Quality_of_opportunities	0.123
+Start-up founders	Estonia	Quality_of_opportunities	0.214
+Start-up founders	Finland	Quality_of_opportunities	0.161
+Start-up founders	France	Quality_of_opportunities	0.201
+Start-up founders	United Kingdom	Quality_of_opportunities	0.240
+Start-up founders	Ireland	Quality_of_opportunities	0.365
+Start-up founders	Israel	Quality_of_opportunities	0.161
+Start-up founders	Italy	Quality_of_opportunities	0.134
+Start-up founders	Japan	Quality_of_opportunities	0.151
+Start-up founders	Korea	Quality_of_opportunities	0.199
+Start-up founders	Lithuania	Quality_of_opportunities	0.196
+Start-up founders	Latvia	Quality_of_opportunities	0.202
+Start-up founders	Netherlands	Quality_of_opportunities	0.206
+Start-up founders	New Zealand	Quality_of_opportunities	0.135
+Start-up founders	Poland	Quality_of_opportunities	0.180
+Start-up founders	Portugal	Quality_of_opportunities	0.197
+Start-up founders	Sweden	Quality_of_opportunities	0.143
+Start-up founders	United States	Quality_of_opportunities	0.706
+Workers	Australia	Income	0.468
+Workers	Austria	Income	0.348
+Workers	Belgium	Income	0.296
+Workers	Canada	Income	0.406
+Workers	Switzerland	Income	0.512
+Workers	Chile	Income	0.622
+Workers	Colombia	Income	0.647
+Workers	Costa Rica	Income	0.465
+Workers	Czech Republic	Income	0.379
+Workers	Germany	Income	0.363
+Workers	Denmark	Income	0.490
+Workers	Spain	Income	0.355
+Workers	Estonia	Income	0.345
+Workers	Finland	Income	0.377
+Workers	France	Income	0.317
+Workers	United Kingdom	Income	0.368
+Workers	Greece	Income	0.426
+Workers	Hungary	Income	0.395
+Workers	Ireland	Income	0.409
+Workers	Iceland	Income	0.397
+Workers	Israel	Income	0.299
+Workers	Italy	Income	0.355
+Workers	Japan	Income	0.397
+Workers	Korea	Income	0.478
+Workers	Lithuania	Income	0.360
+Workers	Luxembourg	Income	0.333
+Workers	Latvia	Income	0.322
+Workers	Mexico	Income	0.530
+Workers	Netherlands	Income	0.460
+Workers	Norway	Income	0.442
+Workers	New Zealand	Income	0.425
+Workers	Poland	Income	0.434
+Workers	Portugal	Income	0.358
+Workers	Slovak Republic	Income	0.324
+Workers	Slovenia	Income	0.362
+Workers	Sweden	Income	0.356
+Workers	Türkiye	Income	0.429
+Workers	United States	Income	0.490
+Entrepreneurs	Australia	Income	0.336
+Entrepreneurs	Austria	Income	0.393
+Entrepreneurs	Belgium	Income	0.385
+Entrepreneurs	Canada	Income	0.505
+Entrepreneurs	Switzerland	Income	0.667
+Entrepreneurs	Chile	Income	0.647
+Entrepreneurs	Colombia	Income	0.314
+Entrepreneurs	Costa Rica	Income	0.323
+Entrepreneurs	Czech Republic	Income	0.460
+Entrepreneurs	Germany	Income	0.542
+Entrepreneurs	Denmark	Income	0.476
+Entrepreneurs	Spain	Income	0.358
+Entrepreneurs	Estonia	Income	0.408
+Entrepreneurs	Finland	Income	0.429
+Entrepreneurs	France	Income	0.327
+Entrepreneurs	United Kingdom	Income	0.426
+Entrepreneurs	Greece	Income	0.386
+Entrepreneurs	Hungary	Income	0.631
+Entrepreneurs	Ireland	Income	0.589
+Entrepreneurs	Iceland	Income	0.396
+Entrepreneurs	Israel	Income	0.277
+Entrepreneurs	Italy	Income	0.373
+Entrepreneurs	Japan	Income	0.381
+Entrepreneurs	Korea	Income	0.354
+Entrepreneurs	Lithuania	Income	0.492
+Entrepreneurs	Luxembourg	Income	0.453
+Entrepreneurs	Latvia	Income	0.393
+Entrepreneurs	Mexico	Income	0.340
+Entrepreneurs	Netherlands	Income	0.400
+Entrepreneurs	Norway	Income	0.479
+Entrepreneurs	New Zealand	Income	0.276
+Entrepreneurs	Poland	Income	0.482
+Entrepreneurs	Portugal	Income	0.254
+Entrepreneurs	Slovak Republic	Income	0.383
+Entrepreneurs	Slovenia	Income	0.469
+Entrepreneurs	Sweden	Income	0.405
+Entrepreneurs	Türkiye	Income	0.429
+Entrepreneurs	United States	Income	0.502
+Students	Australia	Income	0.425
+Students	Austria	Income	0.312
+Students	Belgium	Income	0.398
+Students	Canada	Income	0.427
+Students	Switzerland	Income	0.625
+Students	Chile	Income	0.637
+Students	Colombia	Income	0.488
+Students	Czech Republic	Income	0.323
+Students	Germany	Income	0.682
+Students	Denmark	Income	0.344
+Students	Spain	Income	0.619
+Students	Estonia	Income	0.427
+Students	Finland	Income	0.359
+Students	France	Income	0.313
+Students	United Kingdom	Income	0.364
+Students	Greece	Income	0.342
+Students	Hungary	Income	0.654
+Students	Ireland	Income	0.361
+Students	Iceland	Income	0.510
+Students	Israel	Income	0.079
+Students	Italy	Income	0.599
+Students	Japan	Income	0.667
+Students	Korea	Income	0.615
+Students	Lithuania	Income	0.690
+Students	Luxembourg	Income	0.571
+Students	Latvia	Income	0.357
+Students	Mexico	Income	0.458
+Students	Netherlands	Income	0.332
+Students	Norway	Income	0.673
+Students	New Zealand	Income	0.355
+Students	Poland	Income	0.729
+Students	Portugal	Income	0.547
+Students	Slovak Republic	Income	0.543
+Students	Slovenia	Income	0.466
+Students	Sweden	Income	0.417
+Students	Türkiye	Income	0.696
+Students	United States	Income	0.381
+Start-up founders	Australia	Income	0.171
+Start-up founders	Austria	Income	0.283
+Start-up founders	Canada	Income	0.498
+Start-up founders	Chile	Income	0.711
+Start-up founders	Germany	Income	0.416
+Start-up founders	Denmark	Income	0.214
+Start-up founders	Spain	Income	0.441
+Start-up founders	Estonia	Income	0.358
+Start-up founders	Finland	Income	0.228
+Start-up founders	France	Income	0.381
+Start-up founders	United Kingdom	Income	0.405
+Start-up founders	Ireland	Income	0.484
+Start-up founders	Israel	Income	0.338
+Start-up founders	Italy	Income	0.347
+Start-up founders	Japan	Income	0.312
+Start-up founders	Korea	Income	0.413
+Start-up founders	Lithuania	Income	0.619
+Start-up founders	Latvia	Income	0.332
+Start-up founders	Netherlands	Income	0.429
+Start-up founders	New Zealand	Income	0.192
+Start-up founders	Poland	Income	0.529
+Start-up founders	Portugal	Income	0.428
+Start-up founders	Sweden	Income	0.262
+Start-up founders	United States	Income	0.291
+Workers	Australia	Future_prospects	0.676
+Workers	Austria	Future_prospects	0.552
+Workers	Belgium	Future_prospects	0.631
+Workers	Canada	Future_prospects	0.721
+Workers	Switzerland	Future_prospects	0.431
+Workers	Chile	Future_prospects	0.525
+Workers	Colombia	Future_prospects	0.364
+Workers	Costa Rica	Future_prospects	0.411
+Workers	Czech Republic	Future_prospects	0.456
+Workers	Germany	Future_prospects	0.587
+Workers	Denmark	Future_prospects	0.377
+Workers	Spain	Future_prospects	0.677
+Workers	Estonia	Future_prospects	0.528
+Workers	Finland	Future_prospects	0.561
+Workers	France	Future_prospects	0.630
+Workers	United Kingdom	Future_prospects	0.585
+Workers	Greece	Future_prospects	0.617
+Workers	Hungary	Future_prospects	0.611
+Workers	Ireland	Future_prospects	0.709
+Workers	Iceland	Future_prospects	0.598
+Workers	Israel	Future_prospects	0.422
+Workers	Italy	Future_prospects	0.640
+Workers	Japan	Future_prospects	0.626
+Workers	Korea	Future_prospects	0.593
+Workers	Lithuania	Future_prospects	0.702
+Workers	Luxembourg	Future_prospects	0.447
+Workers	Latvia	Future_prospects	0.524
+Workers	Mexico	Future_prospects	0.544
+Workers	Netherlands	Future_prospects	0.627
+Workers	Norway	Future_prospects	0.584
+Workers	New Zealand	Future_prospects	0.690
+Workers	Poland	Future_prospects	0.404
+Workers	Portugal	Future_prospects	0.775
+Workers	Slovak Republic	Future_prospects	0.687
+Workers	Slovenia	Future_prospects	0.677
+Workers	Sweden	Future_prospects	0.634
+Workers	Türkiye	Future_prospects	0.156
+Workers	United States	Future_prospects	0.635
+Entrepreneurs	Australia	Future_prospects	0.676
+Entrepreneurs	Austria	Future_prospects	0.552
+Entrepreneurs	Belgium	Future_prospects	0.631
+Entrepreneurs	Canada	Future_prospects	0.721
+Entrepreneurs	Switzerland	Future_prospects	0.431
+Entrepreneurs	Chile	Future_prospects	0.525
+Entrepreneurs	Colombia	Future_prospects	0.364
+Entrepreneurs	Costa Rica	Future_prospects	0.411
+Entrepreneurs	Czech Republic	Future_prospects	0.456
+Entrepreneurs	Germany	Future_prospects	0.587
+Entrepreneurs	Denmark	Future_prospects	0.377
+Entrepreneurs	Spain	Future_prospects	0.677
+Entrepreneurs	Estonia	Future_prospects	0.528
+Entrepreneurs	Finland	Future_prospects	0.561
+Entrepreneurs	France	Future_prospects	0.630
+Entrepreneurs	United Kingdom	Future_prospects	0.585
+Entrepreneurs	Greece	Future_prospects	0.617
+Entrepreneurs	Hungary	Future_prospects	0.611
+Entrepreneurs	Ireland	Future_prospects	0.609
+Entrepreneurs	Iceland	Future_prospects	0.598
+Entrepreneurs	Israel	Future_prospects	0.422
+Entrepreneurs	Italy	Future_prospects	0.640
+Entrepreneurs	Japan	Future_prospects	0.626
+Entrepreneurs	Korea	Future_prospects	0.593
+Entrepreneurs	Lithuania	Future_prospects	0.702
+Entrepreneurs	Luxembourg	Future_prospects	0.447
+Entrepreneurs	Latvia	Future_prospects	0.524
+Entrepreneurs	Mexico	Future_prospects	0.544
+Entrepreneurs	Netherlands	Future_prospects	0.627
+Entrepreneurs	Norway	Future_prospects	0.584
+Entrepreneurs	New Zealand	Future_prospects	0.590
+Entrepreneurs	Poland	Future_prospects	0.404
+Entrepreneurs	Portugal	Future_prospects	0.775
+Entrepreneurs	Slovak Republic	Future_prospects	0.687
+Entrepreneurs	Slovenia	Future_prospects	0.677
+Entrepreneurs	Sweden	Future_prospects	0.745
+Entrepreneurs	Türkiye	Future_prospects	0.156
+Entrepreneurs	United States	Future_prospects	0.524
+Students	Australia	Future_prospects	0.757
+Students	Austria	Future_prospects	0.664
+Students	Belgium	Future_prospects	0.723
+Students	Canada	Future_prospects	0.666
+Students	Switzerland	Future_prospects	0.532
+Students	Chile	Future_prospects	0.644
+Students	Colombia	Future_prospects	0.243
+Students	Czech Republic	Future_prospects	0.550
+Students	Germany	Future_prospects	0.699
+Students	Denmark	Future_prospects	0.485
+Students	Spain	Future_prospects	0.768
+Students	Estonia	Future_prospects	0.529
+Students	Finland	Future_prospects	0.671
+Students	France	Future_prospects	0.806
+Students	United Kingdom	Future_prospects	0.770
+Students	Greece	Future_prospects	0.621
+Students	Hungary	Future_prospects	0.489
+Students	Ireland	Future_prospects	0.606
+Students	Iceland	Future_prospects	0.482
+Students	Israel	Future_prospects	0.316
+Students	Italy	Future_prospects	0.823
+Students	Japan	Future_prospects	0.728
+Students	Korea	Future_prospects	0.611
+Students	Lithuania	Future_prospects	0.777
+Students	Luxembourg	Future_prospects	0.462
+Students	Latvia	Future_prospects	0.426
+Students	Mexico	Future_prospects	0.408
+Students	Netherlands	Future_prospects	0.720
+Students	Norway	Future_prospects	0.686
+Students	New Zealand	Future_prospects	0.692
+Students	Poland	Future_prospects	0.436
+Students	Portugal	Future_prospects	0.841
+Students	Slovak Republic	Future_prospects	0.724
+Students	Slovenia	Future_prospects	0.716
+Students	Sweden	Future_prospects	0.803
+Students	Türkiye	Future_prospects	0.450
+Students	United States	Future_prospects	0.643
+Start-up founders	Australia	Future_prospects	0.702
+Start-up founders	Austria	Future_prospects	0.405
+Start-up founders	Canada	Future_prospects	0.740
+Start-up founders	Chile	Future_prospects	0.331
+Start-up founders	Germany	Future_prospects	0.435
+Start-up founders	Denmark	Future_prospects	0.342
+Start-up founders	Spain	Future_prospects	0.476
+Start-up founders	Estonia	Future_prospects	0.336
+Start-up founders	Finland	Future_prospects	0.407
+Start-up founders	France	Future_prospects	0.521
+Start-up founders	United Kingdom	Future_prospects	0.424
+Start-up founders	Ireland	Future_prospects	0.439
+Start-up founders	Israel	Future_prospects	0.393
+Start-up founders	Italy	Future_prospects	0.447
+Start-up founders	Japan	Future_prospects	0.362
+Start-up founders	Korea	Future_prospects	0.457
+Start-up founders	Lithuania	Future_prospects	0.467
+Start-up founders	Latvia	Future_prospects	0.381
+Start-up founders	Netherlands	Future_prospects	0.409
+Start-up founders	New Zealand	Future_prospects	0.564
+Start-up founders	Poland	Future_prospects	0.384
+Start-up founders	Portugal	Future_prospects	0.548
+Start-up founders	Sweden	Future_prospects	0.561
+Start-up founders	United States	Future_prospects	0.370
+Workers	Australia	Family_environment	0.676
+Workers	Austria	Family_environment	0.729
+Workers	Belgium	Family_environment	0.583
+Workers	Canada	Family_environment	0.531
+Workers	Switzerland	Family_environment	0.737
+Workers	Chile	Family_environment	0.534
+Workers	Colombia	Family_environment	0.407
+Workers	Costa Rica	Family_environment	0.416
+Workers	Czech Republic	Family_environment	0.711
+Workers	Germany	Family_environment	0.665
+Workers	Denmark	Family_environment	0.611
+Workers	Spain	Family_environment	0.676
+Workers	Estonia	Family_environment	0.687
+Workers	Finland	Family_environment	0.729
+Workers	France	Family_environment	0.693
+Workers	United Kingdom	Family_environment	0.811
+Workers	Greece	Family_environment	0.632
+Workers	Hungary	Family_environment	0.579
+Workers	Ireland	Family_environment	0.611
+Workers	Iceland	Family_environment	0.590
+Workers	Israel	Family_environment	0.450
+Workers	Italy	Family_environment	0.499
+Workers	Japan	Family_environment	0.414
+Workers	Korea	Family_environment	0.434
+Workers	Lithuania	Family_environment	0.299
+Workers	Luxembourg	Family_environment	0.509
+Workers	Latvia	Family_environment	0.446
+Workers	Mexico	Family_environment	0.427
+Workers	Netherlands	Family_environment	0.715
+Workers	Norway	Family_environment	0.685
+Workers	New Zealand	Family_environment	0.691
+Workers	Poland	Family_environment	0.629
+Workers	Portugal	Family_environment	0.651
+Workers	Slovak Republic	Family_environment	0.671
+Workers	Slovenia	Family_environment	0.631
+Workers	Sweden	Family_environment	0.679
+Workers	Türkiye	Family_environment	0.444
+Workers	United States	Family_environment	0.653
+Entrepreneurs	Australia	Family_environment	0.676
+Entrepreneurs	Austria	Family_environment	0.729
+Entrepreneurs	Belgium	Family_environment	0.583
+Entrepreneurs	Canada	Family_environment	0.615
+Entrepreneurs	Switzerland	Family_environment	0.737
+Entrepreneurs	Chile	Family_environment	0.534
+Entrepreneurs	Colombia	Family_environment	0.407
+Entrepreneurs	Costa Rica	Family_environment	0.416
+Entrepreneurs	Czech Republic	Family_environment	0.544
+Entrepreneurs	Germany	Family_environment	0.665
+Entrepreneurs	Denmark	Family_environment	0.611
+Entrepreneurs	Spain	Family_environment	0.676
+Entrepreneurs	Estonia	Family_environment	0.687
+Entrepreneurs	Finland	Family_environment	0.562
+Entrepreneurs	France	Family_environment	0.693
+Entrepreneurs	United Kingdom	Family_environment	0.811
+Entrepreneurs	Greece	Family_environment	0.632
+Entrepreneurs	Hungary	Family_environment	0.495
+Entrepreneurs	Ireland	Family_environment	0.528
+Entrepreneurs	Iceland	Family_environment	0.590
+Entrepreneurs	Israel	Family_environment	0.450
+Entrepreneurs	Italy	Family_environment	0.583
+Entrepreneurs	Japan	Family_environment	0.498
+Entrepreneurs	Korea	Family_environment	0.517
+Entrepreneurs	Lithuania	Family_environment	0.382
+Entrepreneurs	Luxembourg	Family_environment	0.509
+Entrepreneurs	Latvia	Family_environment	0.446
+Entrepreneurs	Mexico	Family_environment	0.527
+Entrepreneurs	Netherlands	Family_environment	0.715
+Entrepreneurs	Norway	Family_environment	0.685
+Entrepreneurs	New Zealand	Family_environment	0.691
+Entrepreneurs	Poland	Family_environment	0.546
+Entrepreneurs	Portugal	Family_environment	0.651
+Entrepreneurs	Slovak Republic	Family_environment	0.671
+Entrepreneurs	Slovenia	Family_environment	0.631
+Entrepreneurs	Sweden	Family_environment	0.679
+Entrepreneurs	Türkiye	Family_environment	0.444
+Entrepreneurs	United States	Family_environment	0.736
+Students	Australia	Family_environment	0.592
+Students	Austria	Family_environment	0.646
+Students	Belgium	Family_environment	0.583
+Students	Canada	Family_environment	0.698
+Students	Switzerland	Family_environment	0.737
+Students	Chile	Family_environment	0.534
+Students	Colombia	Family_environment	0.407
+Students	Czech Republic	Family_environment	0.544
+Students	Germany	Family_environment	0.665
+Students	Denmark	Family_environment	0.611
+Students	Spain	Family_environment	0.509
+Students	Estonia	Family_environment	0.520
+Students	Finland	Family_environment	0.646
+Students	France	Family_environment	0.527
+Students	United Kingdom	Family_environment	0.727
+Students	Greece	Family_environment	0.298
+Students	Hungary	Family_environment	0.495
+Students	Ireland	Family_environment	0.361
+Students	Iceland	Family_environment	0.506
+Students	Israel	Family_environment	0.450
+Students	Italy	Family_environment	0.583
+Students	Japan	Family_environment	0.581
+Students	Korea	Family_environment	0.601
+Students	Lithuania	Family_environment	0.382
+Students	Luxembourg	Family_environment	0.342
+Students	Latvia	Family_environment	0.530
+Students	Mexico	Family_environment	0.426
+Students	Netherlands	Family_environment	0.465
+Students	Norway	Family_environment	0.601
+Students	New Zealand	Family_environment	0.525
+Students	Poland	Family_environment	0.462
+Students	Portugal	Family_environment	0.567
+Students	Slovak Republic	Family_environment	0.504
+Students	Slovenia	Family_environment	0.464
+Students	Sweden	Family_environment	0.513
+Students	Türkiye	Family_environment	0.194
+Students	United States	Family_environment	0.569
+Start-up founders	Australia	Family_environment	0.619
+Start-up founders	Austria	Family_environment	0.646
+Start-up founders	Canada	Family_environment	0.707
+Start-up founders	Chile	Family_environment	0.420
+Start-up founders	Germany	Family_environment	0.689
+Start-up founders	Denmark	Family_environment	0.703
+Start-up founders	Spain	Family_environment	0.469
+Start-up founders	Estonia	Family_environment	0.489
+Start-up founders	Finland	Family_environment	0.664
+Start-up founders	France	Family_environment	0.652
+Start-up founders	United Kingdom	Family_environment	0.775
+Start-up founders	Ireland	Family_environment	0.661
+Start-up founders	Israel	Family_environment	0.154
+Start-up founders	Italy	Family_environment	0.565
+Start-up founders	Japan	Family_environment	0.378
+Start-up founders	Korea	Family_environment	0.317
+Start-up founders	Lithuania	Family_environment	0.546
+Start-up founders	Latvia	Family_environment	0.424
+Start-up founders	Netherlands	Family_environment	0.616
+Start-up founders	New Zealand	Family_environment	0.627
+Start-up founders	Poland	Family_environment	0.504
+Start-up founders	Portugal	Family_environment	0.522
+Start-up founders	Sweden	Family_environment	0.592
+Start-up founders	United States	Family_environment	0.470
+Workers	Australia	Skills_environment	0.432
+Workers	Austria	Skills_environment	0.367
+Workers	Belgium	Skills_environment	0.451
+Workers	Canada	Skills_environment	0.471
+Workers	Switzerland	Skills_environment	0.493
+Workers	Chile	Skills_environment	0.244
+Workers	Colombia	Skills_environment	0.090
+Workers	Costa Rica	Skills_environment	0.169
+Workers	Czech Republic	Skills_environment	0.356
+Workers	Germany	Skills_environment	0.527
+Workers	Denmark	Skills_environment	0.544
+Workers	Spain	Skills_environment	0.421
+Workers	Estonia	Skills_environment	0.401
+Workers	Finland	Skills_environment	0.510
+Workers	France	Skills_environment	0.513
+Workers	United Kingdom	Skills_environment	0.439
+Workers	Greece	Skills_environment	0.322
+Workers	Hungary	Skills_environment	0.366
+Workers	Ireland	Skills_environment	0.384
+Workers	Iceland	Skills_environment	0.514
+Workers	Israel	Skills_environment	0.439
+Workers	Italy	Skills_environment	0.265
+Workers	Japan	Skills_environment	0.662
+Workers	Korea	Skills_environment	0.705
+Workers	Lithuania	Skills_environment	0.408
+Workers	Luxembourg	Skills_environment	0.454
+Workers	Latvia	Skills_environment	0.362
+Workers	Mexico	Skills_environment	0.091
+Workers	Netherlands	Skills_environment	0.468
+Workers	Norway	Skills_environment	0.568
+Workers	New Zealand	Skills_environment	0.516
+Workers	Poland	Skills_environment	0.286
+Workers	Portugal	Skills_environment	0.509
+Workers	Slovak Republic	Skills_environment	0.335
+Workers	Slovenia	Skills_environment	0.399
+Workers	Sweden	Skills_environment	0.623
+Workers	Türkiye	Skills_environment	0.162
+Workers	United States	Skills_environment	0.634
+Entrepreneurs	Australia	Skills_environment	0.432
+Entrepreneurs	Austria	Skills_environment	0.367
+Entrepreneurs	Belgium	Skills_environment	0.451
+Entrepreneurs	Canada	Skills_environment	0.471
+Entrepreneurs	Switzerland	Skills_environment	0.493
+Entrepreneurs	Chile	Skills_environment	0.244
+Entrepreneurs	Colombia	Skills_environment	0.090
+Entrepreneurs	Costa Rica	Skills_environment	0.169
+Entrepreneurs	Czech Republic	Skills_environment	0.356
+Entrepreneurs	Germany	Skills_environment	0.527
+Entrepreneurs	Denmark	Skills_environment	0.544
+Entrepreneurs	Spain	Skills_environment	0.421
+Entrepreneurs	Estonia	Skills_environment	0.401
+Entrepreneurs	Finland	Skills_environment	0.510
+Entrepreneurs	France	Skills_environment	0.513
+Entrepreneurs	United Kingdom	Skills_environment	0.439
+Entrepreneurs	Greece	Skills_environment	0.322
+Entrepreneurs	Hungary	Skills_environment	0.366
+Entrepreneurs	Ireland	Skills_environment	0.384
+Entrepreneurs	Iceland	Skills_environment	0.514
+Entrepreneurs	Israel	Skills_environment	0.439
+Entrepreneurs	Italy	Skills_environment	0.265
+Entrepreneurs	Japan	Skills_environment	0.662
+Entrepreneurs	Korea	Skills_environment	0.705
+Entrepreneurs	Lithuania	Skills_environment	0.408
+Entrepreneurs	Luxembourg	Skills_environment	0.454
+Entrepreneurs	Latvia	Skills_environment	0.362
+Entrepreneurs	Mexico	Skills_environment	0.091
+Entrepreneurs	Netherlands	Skills_environment	0.468
+Entrepreneurs	Norway	Skills_environment	0.568
+Entrepreneurs	New Zealand	Skills_environment	0.516
+Entrepreneurs	Poland	Skills_environment	0.286
+Entrepreneurs	Portugal	Skills_environment	0.509
+Entrepreneurs	Slovak Republic	Skills_environment	0.335
+Entrepreneurs	Slovenia	Skills_environment	0.399
+Entrepreneurs	Sweden	Skills_environment	0.623
+Entrepreneurs	Türkiye	Skills_environment	0.162
+Entrepreneurs	United States	Skills_environment	0.634
+Students	Australia	Skills_environment	0.628
+Students	Austria	Skills_environment	0.456
+Students	Belgium	Skills_environment	0.523
+Students	Canada	Skills_environment	0.700
+Students	Switzerland	Skills_environment	0.553
+Students	Chile	Skills_environment	0.552
+Students	Colombia	Skills_environment	0.218
+Students	Czech Republic	Skills_environment	0.445
+Students	Germany	Skills_environment	0.529
+Students	Denmark	Skills_environment	0.701
+Students	Spain	Skills_environment	0.561
+Students	Estonia	Skills_environment	0.542
+Students	Finland	Skills_environment	0.624
+Students	France	Skills_environment	0.628
+Students	United Kingdom	Skills_environment	0.632
+Students	Greece	Skills_environment	0.396
+Students	Hungary	Skills_environment	0.441
+Students	Ireland	Skills_environment	0.474
+Students	Iceland	Skills_environment	0.626
+Students	Israel	Skills_environment	0.403
+Students	Italy	Skills_environment	0.307
+Students	Japan	Skills_environment	0.536
+Students	Korea	Skills_environment	0.685
+Students	Lithuania	Skills_environment	0.537
+Students	Luxembourg	Skills_environment	0.527
+Students	Latvia	Skills_environment	0.531
+Students	Mexico	Skills_environment	0.217
+Students	Netherlands	Skills_environment	0.616
+Students	Norway	Skills_environment	0.779
+Students	New Zealand	Skills_environment	0.721
+Students	Poland	Skills_environment	0.392
+Students	Portugal	Skills_environment	0.648
+Students	Slovak Republic	Skills_environment	0.442
+Students	Slovenia	Skills_environment	0.475
+Students	Sweden	Skills_environment	0.738
+Students	Türkiye	Skills_environment	0.293
+Students	United States	Skills_environment	0.711
+Start-up founders	Australia	Skills_environment	0.414
+Start-up founders	Austria	Skills_environment	0.398
+Start-up founders	Canada	Skills_environment	0.484
+Start-up founders	Chile	Skills_environment	0.132
+Start-up founders	Germany	Skills_environment	0.592
+Start-up founders	Denmark	Skills_environment	0.470
+Start-up founders	Spain	Skills_environment	0.385
+Start-up founders	Estonia	Skills_environment	0.416
+Start-up founders	Finland	Skills_environment	0.484
+Start-up founders	France	Skills_environment	0.497
+Start-up founders	United Kingdom	Skills_environment	0.441
+Start-up founders	Ireland	Skills_environment	0.349
+Start-up founders	Israel	Skills_environment	0.400
+Start-up founders	Italy	Skills_environment	0.287
+Start-up founders	Japan	Skills_environment	0.536
+Start-up founders	Korea	Skills_environment	0.642
+Start-up founders	Lithuania	Skills_environment	0.400
+Start-up founders	Latvia	Skills_environment	0.317
+Start-up founders	Netherlands	Skills_environment	0.411
+Start-up founders	New Zealand	Skills_environment	0.419
+Start-up founders	Poland	Skills_environment	0.254
+Start-up founders	Portugal	Skills_environment	0.498
+Start-up founders	Sweden	Skills_environment	0.562
+Start-up founders	United States	Skills_environment	0.670
+Workers	Australia	Inclusiveness	0.720
+Workers	Austria	Inclusiveness	0.536
+Workers	Belgium	Inclusiveness	0.468
+Workers	Canada	Inclusiveness	0.672
+Workers	Switzerland	Inclusiveness	0.771
+Workers	Chile	Inclusiveness	0.408
+Workers	Colombia	Inclusiveness	0.412
+Workers	Costa Rica	Inclusiveness	0.312
+Workers	Czech Republic	Inclusiveness	0.239
+Workers	Germany	Inclusiveness	0.560
+Workers	Denmark	Inclusiveness	0.607
+Workers	Spain	Inclusiveness	0.538
+Workers	Estonia	Inclusiveness	0.355
+Workers	Finland	Inclusiveness	0.498
+Workers	France	Inclusiveness	0.508
+Workers	United Kingdom	Inclusiveness	0.556
+Workers	Greece	Inclusiveness	0.163
+Workers	Hungary	Inclusiveness	0.167
+Workers	Ireland	Inclusiveness	0.668
+Workers	Iceland	Inclusiveness	0.607
+Workers	Israel	Inclusiveness	0.232
+Workers	Italy	Inclusiveness	0.506
+Workers	Japan	Inclusiveness	0.484
+Workers	Korea	Inclusiveness	0.463
+Workers	Lithuania	Inclusiveness	0.301
+Workers	Luxembourg	Inclusiveness	0.838
+Workers	Latvia	Inclusiveness	0.291
+Workers	Mexico	Inclusiveness	0.166
+Workers	Netherlands	Inclusiveness	0.566
+Workers	Norway	Inclusiveness	0.617
+Workers	New Zealand	Inclusiveness	0.732
+Workers	Poland	Inclusiveness	0.340
+Workers	Portugal	Inclusiveness	0.544
+Workers	Slovak Republic	Inclusiveness	0.231
+Workers	Slovenia	Inclusiveness	0.341
+Workers	Sweden	Inclusiveness	0.685
+Workers	Türkiye	Inclusiveness	0.208
+Workers	United States	Inclusiveness	0.588
+Entrepreneurs	Australia	Inclusiveness	0.711
+Entrepreneurs	Austria	Inclusiveness	0.545
+Entrepreneurs	Belgium	Inclusiveness	0.468
+Entrepreneurs	Canada	Inclusiveness	0.685
+Entrepreneurs	Switzerland	Inclusiveness	0.748
+Entrepreneurs	Chile	Inclusiveness	0.401
+Entrepreneurs	Colombia	Inclusiveness	0.419
+Entrepreneurs	Costa Rica	Inclusiveness	0.348
+Entrepreneurs	Czech Republic	Inclusiveness	0.238
+Entrepreneurs	Germany	Inclusiveness	0.574
+Entrepreneurs	Denmark	Inclusiveness	0.602
+Entrepreneurs	Spain	Inclusiveness	0.569
+Entrepreneurs	Estonia	Inclusiveness	0.340
+Entrepreneurs	Finland	Inclusiveness	0.512
+Entrepreneurs	France	Inclusiveness	0.507
+Entrepreneurs	United Kingdom	Inclusiveness	0.558
+Entrepreneurs	Greece	Inclusiveness	0.187
+Entrepreneurs	Hungary	Inclusiveness	0.161
+Entrepreneurs	Ireland	Inclusiveness	0.645
+Entrepreneurs	Iceland	Inclusiveness	0.637
+Entrepreneurs	Israel	Inclusiveness	0.242
+Entrepreneurs	Italy	Inclusiveness	0.551
+Entrepreneurs	Japan	Inclusiveness	0.488
+Entrepreneurs	Korea	Inclusiveness	0.473
+Entrepreneurs	Lithuania	Inclusiveness	0.306
+Entrepreneurs	Luxembourg	Inclusiveness	0.838
+Entrepreneurs	Latvia	Inclusiveness	0.288
+Entrepreneurs	Mexico	Inclusiveness	0.166
+Entrepreneurs	Netherlands	Inclusiveness	0.564
+Entrepreneurs	Norway	Inclusiveness	0.596
+Entrepreneurs	New Zealand	Inclusiveness	0.726
+Entrepreneurs	Poland	Inclusiveness	0.340
+Entrepreneurs	Portugal	Inclusiveness	0.539
+Entrepreneurs	Slovak Republic	Inclusiveness	0.232
+Entrepreneurs	Slovenia	Inclusiveness	0.370
+Entrepreneurs	Sweden	Inclusiveness	0.679
+Entrepreneurs	Türkiye	Inclusiveness	0.207
+Entrepreneurs	United States	Inclusiveness	0.597
+Students	Australia	Inclusiveness	0.730
+Students	Austria	Inclusiveness	0.537
+Students	Belgium	Inclusiveness	0.435
+Students	Canada	Inclusiveness	0.631
+Students	Switzerland	Inclusiveness	0.687
+Students	Chile	Inclusiveness	0.365
+Students	Colombia	Inclusiveness	0.396
+Students	Czech Republic	Inclusiveness	0.311
+Students	Germany	Inclusiveness	0.539
+Students	Denmark	Inclusiveness	0.612
+Students	Spain	Inclusiveness	0.496
+Students	Estonia	Inclusiveness	0.360
+Students	Finland	Inclusiveness	0.513
+Students	France	Inclusiveness	0.504
+Students	United Kingdom	Inclusiveness	0.587
+Students	Greece	Inclusiveness	0.173
+Students	Hungary	Inclusiveness	0.231
+Students	Ireland	Inclusiveness	0.591
+Students	Iceland	Inclusiveness	0.603
+Students	Israel	Inclusiveness	0.141
+Students	Italy	Inclusiveness	0.493
+Students	Japan	Inclusiveness	0.515
+Students	Korea	Inclusiveness	0.479
+Students	Lithuania	Inclusiveness	0.326
+Students	Luxembourg	Inclusiveness	0.838
+Students	Latvia	Inclusiveness	0.313
+Students	Mexico	Inclusiveness	0.169
+Students	Netherlands	Inclusiveness	0.574
+Students	Norway	Inclusiveness	0.513
+Students	New Zealand	Inclusiveness	0.682
+Students	Poland	Inclusiveness	0.365
+Students	Portugal	Inclusiveness	0.552
+Students	Slovak Republic	Inclusiveness	0.290
+Students	Slovenia	Inclusiveness	0.362
+Students	Sweden	Inclusiveness	0.606
+Students	Türkiye	Inclusiveness	0.209
+Students	United States	Inclusiveness	0.531
+Start-up founders	Australia	Inclusiveness	0.619
+Start-up founders	Austria	Inclusiveness	0.493
+Start-up founders	Canada	Inclusiveness	0.645
+Start-up founders	Chile	Inclusiveness	0.383
+Start-up founders	Germany	Inclusiveness	0.469
+Start-up founders	Denmark	Inclusiveness	0.636
+Start-up founders	Spain	Inclusiveness	0.651
+Start-up founders	Estonia	Inclusiveness	0.312
+Start-up founders	Finland	Inclusiveness	0.566
+Start-up founders	France	Inclusiveness	0.618
+Start-up founders	United Kingdom	Inclusiveness	0.603
+Start-up founders	Ireland	Inclusiveness	0.711
+Start-up founders	Israel	Inclusiveness	0.288
+Start-up founders	Italy	Inclusiveness	0.527
+Start-up founders	Japan	Inclusiveness	0.255
+Start-up founders	Korea	Inclusiveness	0.214
+Start-up founders	Lithuania	Inclusiveness	0.497
+Start-up founders	Latvia	Inclusiveness	0.452
+Start-up founders	Netherlands	Inclusiveness	0.570
+Start-up founders	New Zealand	Inclusiveness	0.619
+Start-up founders	Poland	Inclusiveness	0.479
+Start-up founders	Portugal	Inclusiveness	0.742
+Start-up founders	Sweden	Inclusiveness	0.626
+Start-up founders	United States	Inclusiveness	0.529
+Workers	Australia	Quality_of_life	0.779
+Workers	Austria	Quality_of_life	0.678
+Workers	Belgium	Quality_of_life	0.694
+Workers	Canada	Quality_of_life	0.759
+Workers	Switzerland	Quality_of_life	0.782
+Workers	Chile	Quality_of_life	0.390
+Workers	Colombia	Quality_of_life	0.255
+Workers	Costa Rica	Quality_of_life	0.384
+Workers	Czech Republic	Quality_of_life	0.618
+Workers	Germany	Quality_of_life	0.718
+Workers	Denmark	Quality_of_life	0.741
+Workers	Spain	Quality_of_life	0.607
+Workers	Estonia	Quality_of_life	0.660
+Workers	Finland	Quality_of_life	0.755
+Workers	France	Quality_of_life	0.661
+Workers	United Kingdom	Quality_of_life	0.692
+Workers	Greece	Quality_of_life	0.432
+Workers	Hungary	Quality_of_life	0.538
+Workers	Ireland	Quality_of_life	0.685
+Workers	Iceland	Quality_of_life	0.773
+Workers	Israel	Quality_of_life	0.595
+Workers	Italy	Quality_of_life	0.587
+Workers	Japan	Quality_of_life	0.580
+Workers	Korea	Quality_of_life	0.589
+Workers	Lithuania	Quality_of_life	0.564
+Workers	Luxembourg	Quality_of_life	0.736
+Workers	Latvia	Quality_of_life	0.526
+Workers	Mexico	Quality_of_life	0.276
+Workers	Netherlands	Quality_of_life	0.771
+Workers	Norway	Quality_of_life	0.795
+Workers	New Zealand	Quality_of_life	0.726
+Workers	Poland	Quality_of_life	0.582
+Workers	Portugal	Quality_of_life	0.548
+Workers	Slovak Republic	Quality_of_life	0.535
+Workers	Slovenia	Quality_of_life	0.662
+Workers	Sweden	Quality_of_life	0.771
+Workers	Türkiye	Quality_of_life	0.352
+Workers	United States	Quality_of_life	0.764
+Entrepreneurs	Australia	Quality_of_life	0.779
+Entrepreneurs	Austria	Quality_of_life	0.678
+Entrepreneurs	Belgium	Quality_of_life	0.694
+Entrepreneurs	Canada	Quality_of_life	0.759
+Entrepreneurs	Switzerland	Quality_of_life	0.782
+Entrepreneurs	Chile	Quality_of_life	0.390
+Entrepreneurs	Colombia	Quality_of_life	0.255
+Entrepreneurs	Costa Rica	Quality_of_life	0.384
+Entrepreneurs	Czech Republic	Quality_of_life	0.618
+Entrepreneurs	Germany	Quality_of_life	0.718
+Entrepreneurs	Denmark	Quality_of_life	0.741
+Entrepreneurs	Spain	Quality_of_life	0.607
+Entrepreneurs	Estonia	Quality_of_life	0.660
+Entrepreneurs	Finland	Quality_of_life	0.755
+Entrepreneurs	France	Quality_of_life	0.661
+Entrepreneurs	United Kingdom	Quality_of_life	0.692
+Entrepreneurs	Greece	Quality_of_life	0.432
+Entrepreneurs	Hungary	Quality_of_life	0.538
+Entrepreneurs	Ireland	Quality_of_life	0.685
+Entrepreneurs	Iceland	Quality_of_life	0.773
+Entrepreneurs	Israel	Quality_of_life	0.595
+Entrepreneurs	Italy	Quality_of_life	0.587
+Entrepreneurs	Japan	Quality_of_life	0.580
+Entrepreneurs	Korea	Quality_of_life	0.589
+Entrepreneurs	Lithuania	Quality_of_life	0.564
+Entrepreneurs	Luxembourg	Quality_of_life	0.736
+Entrepreneurs	Latvia	Quality_of_life	0.526
+Entrepreneurs	Mexico	Quality_of_life	0.276
+Entrepreneurs	Netherlands	Quality_of_life	0.771
+Entrepreneurs	Norway	Quality_of_life	0.795
+Entrepreneurs	New Zealand	Quality_of_life	0.726
+Entrepreneurs	Poland	Quality_of_life	0.582
+Entrepreneurs	Portugal	Quality_of_life	0.548
+Entrepreneurs	Slovak Republic	Quality_of_life	0.535
+Entrepreneurs	Slovenia	Quality_of_life	0.662
+Entrepreneurs	Sweden	Quality_of_life	0.771
+Entrepreneurs	Türkiye	Quality_of_life	0.352
+Entrepreneurs	United States	Quality_of_life	0.764
+Students	Australia	Quality_of_life	0.779
+Students	Austria	Quality_of_life	0.678
+Students	Belgium	Quality_of_life	0.694
+Students	Canada	Quality_of_life	0.759
+Students	Switzerland	Quality_of_life	0.782
+Students	Chile	Quality_of_life	0.390
+Students	Colombia	Quality_of_life	0.255
+Students	Czech Republic	Quality_of_life	0.618
+Students	Germany	Quality_of_life	0.718
+Students	Denmark	Quality_of_life	0.741
+Students	Spain	Quality_of_life	0.607
+Students	Estonia	Quality_of_life	0.660
+Students	Finland	Quality_of_life	0.755
+Students	France	Quality_of_life	0.661
+Students	United Kingdom	Quality_of_life	0.692
+Students	Greece	Quality_of_life	0.432
+Students	Hungary	Quality_of_life	0.538
+Students	Ireland	Quality_of_life	0.685
+Students	Iceland	Quality_of_life	0.773
+Students	Israel	Quality_of_life	0.595
+Students	Italy	Quality_of_life	0.587
+Students	Japan	Quality_of_life	0.580
+Students	Korea	Quality_of_life	0.589
+Students	Lithuania	Quality_of_life	0.564
+Students	Luxembourg	Quality_of_life	0.736
+Students	Latvia	Quality_of_life	0.526
+Students	Mexico	Quality_of_life	0.276
+Students	Netherlands	Quality_of_life	0.771
+Students	Norway	Quality_of_life	0.795
+Students	New Zealand	Quality_of_life	0.726
+Students	Poland	Quality_of_life	0.582
+Students	Portugal	Quality_of_life	0.548
+Students	Slovak Republic	Quality_of_life	0.535
+Students	Slovenia	Quality_of_life	0.662
+Students	Sweden	Quality_of_life	0.771
+Students	Türkiye	Quality_of_life	0.352
+Students	United States	Quality_of_life	0.764
+Start-up founders	Australia	Quality_of_life	0.746
+Start-up founders	Austria	Quality_of_life	0.635
+Start-up founders	Canada	Quality_of_life	0.726
+Start-up founders	Chile	Quality_of_life	0.253
+Start-up founders	Germany	Quality_of_life	0.690
+Start-up founders	Denmark	Quality_of_life	0.712
+Start-up founders	Spain	Quality_of_life	0.523
+Start-up founders	Estonia	Quality_of_life	0.601
+Start-up founders	Finland	Quality_of_life	0.727
+Start-up founders	France	Quality_of_life	0.607
+Start-up founders	United Kingdom	Quality_of_life	0.653
+Start-up founders	Ireland	Quality_of_life	0.645
+Start-up founders	Israel	Quality_of_life	0.527
+Start-up founders	Italy	Quality_of_life	0.503
+Start-up founders	Japan	Quality_of_life	0.515
+Start-up founders	Korea	Quality_of_life	0.527
+Start-up founders	Lithuania	Quality_of_life	0.473
+Start-up founders	Latvia	Quality_of_life	0.423
+Start-up founders	Netherlands	Quality_of_life	0.751
+Start-up founders	New Zealand	Quality_of_life	0.687
+Start-up founders	Poland	Quality_of_life	0.526
+Start-up founders	Portugal	Quality_of_life	0.465
+Start-up founders	Sweden	Quality_of_life	0.744
+Start-up founders	United States	Quality_of_life	0.709
+Start-up founders	Belgium	Quality_of_opportunities
+Start-up founders	Switzerland	Quality_of_opportunities
+Start-up founders	Colombia	Quality_of_opportunities
+Start-up founders	Czech Republic	Quality_of_opportunities
+Start-up founders	Greece	Quality_of_opportunities
+Start-up founders	Hungary	Quality_of_opportunities
+Start-up founders	Iceland	Quality_of_opportunities
+Start-up founders	Luxembourg	Quality_of_opportunities
+Start-up founders	Mexico	Quality_of_opportunities
+Start-up founders	Norway	Quality_of_opportunities
+Start-up founders	Slovak Republic	Quality_of_opportunities
+Start-up founders	Slovenia	Quality_of_opportunities
+Start-up founders	Türkiye	Quality_of_opportunities
+Start-up founders	Belgium	Income
+Start-up founders	Switzerland	Income
+Start-up founders	Colombia	Income
+Start-up founders	Czech Republic	Income
+Start-up founders	Greece	Income
+Start-up founders	Hungary	Income
+Start-up founders	Iceland	Income
+Start-up founders	Luxembourg	Income
+Start-up founders	Mexico	Income
+Start-up founders	Norway	Income
+Start-up founders	Slovak Republic	Income
+Start-up founders	Slovenia	Income
+Start-up founders	Türkiye	Income
+Start-up founders	Belgium	Future_prospects
+Start-up founders	Switzerland	Future_prospects
+Start-up founders	Colombia	Future_prospects
+Start-up founders	Czech Republic	Future_prospects
+Start-up founders	Greece	Future_prospects
+Start-up founders	Hungary	Future_prospects
+Start-up founders	Iceland	Future_prospects
+Start-up founders	Luxembourg	Future_prospects
+Start-up founders	Mexico	Future_prospects
+Start-up founders	Norway	Future_prospects
+Start-up founders	Slovak Republic	Future_prospects
+Start-up founders	Slovenia	Future_prospects
+Start-up founders	Türkiye	Future_prospects
+Start-up founders	Belgium	Family_environment
+Start-up founders	Switzerland	Family_environment
+Start-up founders	Colombia	Family_environment
+Start-up founders	Czech Republic	Family_environment
+Start-up founders	Greece	Family_environment
+Start-up founders	Hungary	Family_environment
+Start-up founders	Iceland	Family_environment
+Start-up founders	Luxembourg	Family_environment
+Start-up founders	Mexico	Family_environment
+Start-up founders	Norway	Family_environment
+Start-up founders	Slovak Republic	Family_environment
+Start-up founders	Slovenia	Family_environment
+Start-up founders	Türkiye	Family_environment
+Start-up founders	Belgium	Skills_environment
+Start-up founders	Switzerland	Skills_environment
+Start-up founders	Colombia	Skills_environment
+Start-up founders	Czech Republic	Skills_environment
+Start-up founders	Greece	Skills_environment
+Start-up founders	Hungary	Skills_environment
+Start-up founders	Iceland	Skills_environment
+Start-up founders	Luxembourg	Skills_environment
+Start-up founders	Mexico	Skills_environment
+Start-up founders	Norway	Skills_environment
+Start-up founders	Slovak Republic	Skills_environment
+Start-up founders	Slovenia	Skills_environment
+Start-up founders	Türkiye	Skills_environment
+Start-up founders	Belgium	Inclusiveness
+Start-up founders	Switzerland	Inclusiveness
+Start-up founders	Colombia	Inclusiveness
+Start-up founders	Czech Republic	Inclusiveness
+Start-up founders	Greece	Inclusiveness
+Start-up founders	Hungary	Inclusiveness
+Start-up founders	Iceland	Inclusiveness
+Start-up founders	Luxembourg	Inclusiveness
+Start-up founders	Mexico	Inclusiveness
+Start-up founders	Norway	Inclusiveness
+Start-up founders	Slovak Republic	Inclusiveness
+Start-up founders	Slovenia	Inclusiveness
+Start-up founders	Türkiye	Inclusiveness
+Start-up founders	Belgium	Quality_of_life
+Start-up founders	Switzerland	Quality_of_life
+Start-up founders	Colombia	Quality_of_life
+Start-up founders	Czech Republic	Quality_of_life
+Start-up founders	Greece	Quality_of_life
+Start-up founders	Hungary	Quality_of_life
+Start-up founders	Iceland	Quality_of_life
+Start-up founders	Luxembourg	Quality_of_life
+Start-up founders	Mexico	Quality_of_life
+Start-up founders	Norway	Quality_of_life
+Start-up founders	Slovak Republic	Quality_of_life
+Start-up founders	Slovenia	Quality_of_life
+Start-up founders	Türkiye	Quality_of_life
+Start-up founders	Costa Rica	Quality_of_opportunities
+Start-up founders	Costa Rica	Income
+Start-up founders	Costa Rica	Future_prospects
+Start-up founders	Costa Rica	Family_environment
+Start-up founders	Costa Rica	Skills_environment
+Start-up founders	Costa Rica	Inclusiveness
+Start-up founders	Costa Rica	Quality_of_life
+Students	Costa Rica	Quality_of_opportunities
+Students	Costa Rica	Income
+Students	Costa Rica	Future_prospects
+Students	Costa Rica	Family_environment
+Students	Costa Rica	Skills_environment
+Students	Costa Rica	Inclusiveness
+Students	Costa Rica	Quality_of_life
