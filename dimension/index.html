@@ -107,7 +107,7 @@
             type="radio"
             id="Start-up-foundersButton"
             name="sort"
-            value="Start-up founders"
+            value="Start-ups"
             onclick="sortupdate()"
           /><label class="labelRadio">Start-up founders</label></span
         >
@@ -147,7 +147,7 @@
 
     var dimColor = d3
       .scaleOrdinal()
-      .domain(["Workers", "Entrepreneurs", "Students", "Start-up founders"])
+      .domain(["Workers", "Entrepreneurs", "Students", "Start-ups"])
       .range(["#A6584D", "#31999B", " #EC9459", "#072448"]);
 
     var lollipopsCircle;
