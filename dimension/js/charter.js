@@ -38,7 +38,10 @@ function createChart(dimensionName) {
       return 5;
     })
     .attr("fill", function (d) {
-      return dimColor(d);
+      if(d=="Start-up founders")
+          return  dimColor("Start-ups");
+      else
+          return dimColor(d);
     })
     .attr("opacity", 0.7);
 
